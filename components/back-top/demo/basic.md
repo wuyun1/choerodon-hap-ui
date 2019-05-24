@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ````jsx
-import { BackTop } from 'choerodon-ui';
+import { BackTop } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

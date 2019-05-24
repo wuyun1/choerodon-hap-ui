@@ -14,7 +14,7 @@ title:
 Cell renderer.
 
 ````jsx
-import { DatePicker } from 'choerodon-ui/pro';
+import { DatePicker } from 'choerodon-hap-ui/pro';
 
 function dayRenderer(props, text, currentDate) {
   const dayInWeek = currentDate.get('d');

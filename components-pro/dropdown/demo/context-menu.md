@@ -14,7 +14,7 @@ title:
 The default trigger mode is `hover`, you can change it to `click`.
 
 ````jsx
-import { Menu, Dropdown } from 'choerodon-ui/pro';
+import { Menu, Dropdown } from 'choerodon-hap-ui/pro';
 
 const menu = (
   <Menu>

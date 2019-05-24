@@ -18,7 +18,7 @@ Display large amounts of data in scrollable view.
 > Specify the width of each column if header and cell do not align properly.
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

@@ -14,7 +14,7 @@ title:
 The separator can be customized by setting the separator property: separator=">"
 
 ````jsx
-import { Breadcrumb } from 'choerodon-ui';
+import { Breadcrumb } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Breadcrumb separator=">">

@@ -16,7 +16,7 @@ Customize the response handler, including success and failure.
 This will override the default handlers.
 
 ````jsx
-import { Upload, message } from 'choerodon-ui/pro';
+import { Upload, message } from 'choerodon-hap-ui/pro';
 
 const props = {
   headers: {

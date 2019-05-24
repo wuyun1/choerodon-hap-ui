@@ -14,7 +14,7 @@ title:
 Icon Picker.
 
 ````jsx
-import { IconPicker } from 'choerodon-ui/pro';
+import { IconPicker } from 'choerodon-hap-ui/pro';
 
 function handleChange(value, oldValue) {
   console.log('[datepicker]', value, '[oldValue]', oldValue);

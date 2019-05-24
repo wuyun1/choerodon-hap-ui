@@ -14,7 +14,7 @@ title:
 Cooperate with the content and buttons, to represent the progress of a process.
 
 ````jsx
-import { Steps, Button, message } from 'choerodon-ui';
+import { Steps, Button, message } from 'choerodon-hap-ui';
 const Step = Steps.Step;
 
 const steps = [{

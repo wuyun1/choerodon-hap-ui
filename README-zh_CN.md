@@ -20,20 +20,20 @@
 ## 安装
 
 ```bash
-npm install choerodon-ui --save
+npm install choerodon-hap-ui --save
 ```
 
 ## 示例
 
 ```jsx
-import { DatePicker } from 'choerodon-ui';
+import { DatePicker } from 'choerodon-hap-ui';
 ReactDOM.render(<DatePicker />, mountNode);
 ```
 
 引入样式：
 
 ```jsx
-import 'choerodon-ui/dist/choerodon-ui.css';  // or 'choerodon-ui/dist/choerodon-ui.less'
+import 'choerodon-hap-ui/dist/choerodon-hap-ui.css';  // or 'choerodon-hap-ui/dist/choerodon-hap-ui.less'
 ```
 
 你也可以[按需加载组件](http://ant-design.gitee.io/docs/react/getting-started-cn#按需加载)。
@@ -49,18 +49,18 @@ import 'choerodon-ui/dist/choerodon-ui.css';  // or 'choerodon-ui/dist/choerodon
 ## 链接
 
 - [首页]
-- [组件库](https://choerodon.github.io/choerodon-ui/docs/react/introduce-cn)
+- [组件库](https://choerodon.github.io/choerodon-hap-ui/docs/react/introduce-cn)
 - [更新日志](CHANGELOG.en-US.md)
 - [脚手架市场](http://scaffold.ant.design)
 - [Ant Design](http://ant-design.gitee.io)
 - [React 底层基础组件](http://react-component.github.io/)
-- [定制主题](https://choerodon.github.io/choerodon-ui/docs/react/customize-theme-cn)
+- [定制主题](https://choerodon.github.io/choerodon-hap-ui/docs/react/customize-theme-cn)
 
 ## 本地开发
 
 ```bash
-$ git clone https://github.com/choerodon/choerodon-ui.git
-$ cd choerodon-ui
+$ git clone https://github.com/choerodon/choerodon-hap-ui.git
+$ cd choerodon-hap-ui
 $ npm install
 $ npm start
 ```

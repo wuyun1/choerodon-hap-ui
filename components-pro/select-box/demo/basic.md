@@ -14,7 +14,7 @@ title:
 SelectBox.
 
 ````jsx
-import { SelectBox, Row, Col } from 'choerodon-ui/pro';
+import { SelectBox, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleChange(value, oldValue) {
   console.log('[basic new]', value, '[basic old]', oldValue);

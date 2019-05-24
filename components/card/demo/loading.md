@@ -14,7 +14,7 @@ title:
 Shows a loading indicator while the contents of the card is being fetched.
 
 ````jsx
-import { Card } from 'choerodon-ui';
+import { Card } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Card loading title="Card title" style={{ width: '34%' }}>

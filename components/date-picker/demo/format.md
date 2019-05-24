@@ -14,7 +14,7 @@ title:
 We can set the date format by `format`.
 
 ````jsx
-import { DatePicker } from 'choerodon-ui';
+import { DatePicker } from 'choerodon-hap-ui';
 import moment from 'moment';
 const { MonthPicker, RangePicker } = DatePicker;
 

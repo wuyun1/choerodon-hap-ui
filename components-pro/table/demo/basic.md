@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ````jsx
-import { DataSet, Table, TextField, NumberField, Modal, Button, Tabs } from 'choerodon-ui/pro';
+import { DataSet, Table, TextField, NumberField, Modal, Button, Tabs } from 'choerodon-hap-ui/pro';
 
 const { Column } = Table;
 const { TabPane } = Tabs;

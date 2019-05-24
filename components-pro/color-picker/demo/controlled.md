@@ -14,7 +14,7 @@ title:
 Controlled ColorPicker
 
 ````jsx
-import { ColorPicker } from 'choerodon-ui/pro';
+import { ColorPicker } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

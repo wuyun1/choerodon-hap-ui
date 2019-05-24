@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ````jsx
-import { Output, Row, Col } from 'choerodon-ui/pro';
+import { Output, Row, Col } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <Row gutter={10}>

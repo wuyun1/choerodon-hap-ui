@@ -14,7 +14,7 @@ title:
 Use `setFieldsValue` to set other control's value programmaticly.
 
 ````jsx
-import { Form, Select, Input, Button } from 'choerodon-ui';
+import { Form, Select, Input, Button } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 const Option = Select.Option;
 

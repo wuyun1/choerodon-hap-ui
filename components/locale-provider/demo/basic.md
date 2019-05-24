@@ -14,8 +14,8 @@ title:
 Wrap your app with `LocaleProvider`, and apply the corresponding language package.
 
 ````jsx
-import { Pagination, LocaleProvider } from 'choerodon-ui';
-import enUS from 'choerodon-ui/lib/locale-provider/en_US';
+import { Pagination, LocaleProvider } from 'choerodon-hap-ui';
+import enUS from 'choerodon-hap-ui/lib/locale-provider/en_US';
 
 const App = () => (
   <div>

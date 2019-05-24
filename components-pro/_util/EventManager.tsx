@@ -1,4 +1,4 @@
-import EventManager, { preventDefault, stopEvent, stopPropagation } from 'choerodon-ui/lib/_util/EventManager';
+import EventManager, { preventDefault, stopEvent, stopPropagation } from 'choerodon-hap-ui/lib/_util/EventManager';
 
 export default EventManager;
 

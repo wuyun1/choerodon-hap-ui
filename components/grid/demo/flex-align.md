@@ -14,7 +14,7 @@ Flex 子元素垂直对齐。
 Flex child elements vertically aligned.
 
 ````jsx
-import { Row, Col } from 'choerodon-ui';
+import { Row, Col } from 'choerodon-hap-ui';
 
 const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>;
 

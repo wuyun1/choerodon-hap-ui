@@ -14,7 +14,7 @@ title:
 Basic usage of checkbox.
 
 ````jsx
-import { Checkbox } from 'choerodon-ui';
+import { Checkbox } from 'choerodon-hap-ui';
 
 function onChange(e) {
   console.log(`checked = ${e.target.checked}`);

@@ -18,7 +18,7 @@ $ npm install -g create-react-app yarn
 然后新建一个项目。
 
 ```bash
-$ create-react-app choerodon-ui-demo
+$ create-react-app choerodon-hap-ui-demo
 ```
 
 工具会自动初始化一个脚手架并安装 React 项目的各种必要依赖，如果在过程中出现网络问题，请尝试配置代理或使用其他 npm registry。
@@ -26,13 +26,13 @@ $ create-react-app choerodon-ui-demo
 然后我们进入项目并启动。
 
 ```bash
-$ cd choerodon-ui-demo
+$ cd choerodon-hap-ui-demo
 $ yarn start
 ```
 
 此时浏览器会访问 http://localhost:3000/ ，看到 `Welcome to React` 的界面就算成功了。
 
-## 引入 choerodon-ui
+## 引入 choerodon-hap-ui
 
 这是 create-react-app 生成的默认目录结构。
 
@@ -52,17 +52,17 @@ $ yarn start
 └── yarn.lock
 ```
 
-现在从 yarn 或 npm 安装并引入 choerodon-ui。
+现在从 yarn 或 npm 安装并引入 choerodon-hap-ui。
 
 ```bash
-$ yarn add choerodon-ui
+$ yarn add choerodon-hap-ui
 ```
 
-修改 `src/App.js`，引入 choerodon-ui 的按钮组件。
+修改 `src/App.js`，引入 choerodon-hap-ui 的按钮组件。
 
 ```jsx
 import React, { Component } from 'react';
-import Button from 'choerodon-ui/lib/button';
+import Button from 'choerodon-hap-ui/lib/button';
 import './App.css';
 
 class App extends Component {
@@ -78,10 +78,10 @@ class App extends Component {
 export default App;
 ```
 
-修改 `src/App.css`，在文件顶部引入 `choerodon-ui/dist/choerodon-ui.css`。
+修改 `src/App.css`，在文件顶部引入 `choerodon-hap-ui/dist/choerodon-hap-ui.css`。
 
 ```css
-@import '~choerodon-ui/dist/choerodon-ui.css';
+@import '~choerodon-hap-ui/dist/choerodon-hap-ui.css';
 
 .App {
   text-align: center;
@@ -90,11 +90,11 @@ export default App;
 ...
 ```
 
-好了，现在你应该能看到页面上已经有了 choerodon-ui 的蓝色按钮组件，接下来就可以继续选用其他组件开发应用了。其他开发流程你可以参考 create-react-app 的[官方文档](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)。
+好了，现在你应该能看到页面上已经有了 choerodon-hap-ui 的蓝色按钮组件，接下来就可以继续选用其他组件开发应用了。其他开发流程你可以参考 create-react-app 的[官方文档](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)。
 
 ## 高级配置
 
-我们现在已经把组件成功运行起来了，但是在实际开发过程中还有很多问题，例如上面的例子实际上加载了全部的 choerodon-ui 组件的样式（对前端性能是个隐患）。
+我们现在已经把组件成功运行起来了，但是在实际开发过程中还有很多问题，例如上面的例子实际上加载了全部的 choerodon-hap-ui 组件的样式（对前端性能是个隐患）。
 
 此时我们需要对 create-react-app 的默认配置进行自定义，这里我们使用 [react-app-rewired](https://github.com/timarney/react-app-rewired) （一个对 create-react-app 进行自定义配置的社区解决方案）。
 
@@ -137,18 +137,18 @@ $ yarn add babel-plugin-import --dev
 + const { injectBabelPlugin } = require('react-app-rewired');
 
   module.exports = function override(config, env) {
-+   config = injectBabelPlugin(['import', { libraryName: 'choerodon-ui', libraryDirectory: 'es', style: 'css' }], config);
++   config = injectBabelPlugin(['import', { libraryName: 'choerodon-hap-ui', libraryDirectory: 'es', style: 'css' }], config);
     return config;
   };
 ```
 
-然后移除前面在 `src/App.css` 里全量添加的 `@import '~choerodon-ui/dist/choerodon-ui.css';` 样式代码，并且按下面的格式引入模块。
+然后移除前面在 `src/App.css` 里全量添加的 `@import '~choerodon-hap-ui/dist/choerodon-hap-ui.css';` 样式代码，并且按下面的格式引入模块。
 
 ```diff
   // src/App.js
   import React, { Component } from 'react';
-- import Button from 'choerodon-ui/lib/button';
-+ import { Button } from 'choerodon-ui';
+- import Button from 'choerodon-hap-ui/lib/button';
++ import { Button } from 'choerodon-hap-ui';
   import './App.css';
 
   class App extends Component {
@@ -164,7 +164,7 @@ $ yarn add babel-plugin-import --dev
   export default App;
 ```
 
-最后重启 `yarn start` 访问页面，choerodon-ui 组件的 js 和 css 代码都会按需加载，你在控制台也不会看到这样的[警告信息](https://zos.alipayobjects.com/rmsportal/vgcHJRVZFmPjAawwVoXK.png)。关于按需加载的原理和其他方式可以阅读[这里](/docs/react/getting-started#按需加载)。
+最后重启 `yarn start` 访问页面，choerodon-hap-ui 组件的 js 和 css 代码都会按需加载，你在控制台也不会看到这样的[警告信息](https://zos.alipayobjects.com/rmsportal/vgcHJRVZFmPjAawwVoXK.png)。关于按需加载的原理和其他方式可以阅读[这里](/docs/react/getting-started#按需加载)。
 
 ### 自定义主题
 
@@ -179,8 +179,8 @@ $ yarn add react-app-rewire-less --dev
 + const rewireLess = require('react-app-rewire-less');
 
   module.exports = function override(config, env) {
--   config = injectBabelPlugin(['import', { libraryName: 'choerodon-ui', style: 'css' }], config);
-+   config = injectBabelPlugin(['import', { libraryName: 'choerodon-ui', style: true }], config);
+-   config = injectBabelPlugin(['import', { libraryName: 'choerodon-hap-ui', style: 'css' }], config);
++   config = injectBabelPlugin(['import', { libraryName: 'choerodon-hap-ui', style: true }], config);
 +   config = rewireLess.withLoaderOptions({
 +     modifyVars: { "@primary-color": "#1DA57A" },
 +   })(config, env);

@@ -14,7 +14,7 @@ title:
 A simple card only containing a content area.
 
 ````jsx
-import { Card } from 'choerodon-ui';
+import { Card } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Card style={{ width: 300 }}>

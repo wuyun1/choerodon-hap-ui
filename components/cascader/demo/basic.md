@@ -14,7 +14,7 @@ title:
 Cascade selection box for selecting province/city/district.
 
 ````jsx
-import { Cascader } from 'choerodon-ui';
+import { Cascader } from 'choerodon-hap-ui';
 
 const options = [{
   value: 'zhejiang',

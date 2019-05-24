@@ -14,7 +14,7 @@ title:
 By using `status` of `Steps`, you can specify the state for current step.
 
 ````jsx
-import { Steps } from 'choerodon-ui';
+import { Steps } from 'choerodon-hap-ui';
 const Step = Steps.Step;
 
 ReactDOM.render(

@@ -1,5 +1,5 @@
-import componentsLocale from 'choerodon-ui/lib/locale-provider/en_US';
-import proComponentsLocale from 'choerodon-ui/pro/lib/locale-context/en_US';
+import componentsLocale from 'choerodon-hap-ui/lib/locale-provider/en_US';
+import proComponentsLocale from 'choerodon-hap-ui/pro/lib/locale-context/en_US';
 
 const appLocaleData = require('react-intl/locale-data/en');
 

@@ -14,12 +14,12 @@ title:
 Setting `itemLayout` property with `vertical` to create a vertical list.
 
 ````jsx
-import { List, Avatar, Icon } from 'choerodon-ui';
+import { List, Avatar, Icon } from 'choerodon-hap-ui';
 
 const listData = [];
 for (let i = 0; i < 5; i++) {
   listData.push({
-    href: 'https://choerodon.github.io/choerodon-ui/',
+    href: 'https://choerodon.github.io/choerodon-hap-ui/',
     title: `choerodon ui part ${i}`,
     avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
     description: 'Choerodon UI, An enterprise-class UI design language and React-based implementation.',

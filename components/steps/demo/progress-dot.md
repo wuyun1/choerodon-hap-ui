@@ -14,7 +14,7 @@ title:
 Steps with progress dot style.
 
 ````jsx
-import { Steps } from 'choerodon-ui';
+import { Steps } from 'choerodon-hap-ui';
 const Step = Steps.Step;
 
 ReactDOM.render(

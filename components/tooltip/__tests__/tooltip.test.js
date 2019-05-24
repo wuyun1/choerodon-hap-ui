@@ -75,7 +75,7 @@ describe('Tooltip', () => {
     expect(wrapper.instance().tooltip.props.visible).toBe(false);
   });
 
-  it('should hide when mouse leave choerodon-ui disabled Button', () => {
+  it('should hide when mouse leave choerodon-hap-ui disabled Button', () => {
     const onVisibleChange = jest.fn();
     const wrapper = mount(
       <Tooltip

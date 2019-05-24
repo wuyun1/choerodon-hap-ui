@@ -14,7 +14,7 @@ title:
 Use `type="vertical"` make it vertical.
 
 ````jsx
-import { Divider } from 'choerodon-ui';
+import { Divider } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

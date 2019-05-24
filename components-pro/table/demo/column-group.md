@@ -14,7 +14,7 @@ title:
 Grouped Columns.
 
 ````jsx
-import { DataSet, Table } from 'choerodon-ui/pro';
+import { DataSet, Table } from 'choerodon-hap-ui/pro';
 
 const { Column } = Table;
 

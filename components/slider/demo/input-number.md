@@ -14,7 +14,7 @@ title:
 Synchronize with [InptNumber](/components/input-number/) component.
 
 ````jsx
-import { Slider, InputNumber, Row, Col } from 'choerodon-ui';
+import { Slider, InputNumber, Row, Col } from 'choerodon-hap-ui';
 
 class IntegerStep extends React.Component {
   state = {

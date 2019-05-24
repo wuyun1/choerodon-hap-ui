@@ -15,7 +15,7 @@ Demonstration of [Lookup Patterns: Uncertain Category](/docs/spec/reaction#Looku
 Basic Usage, set datasource of autocomplete with `dataSource` property.
 
 ````jsx
-import { Button, Input, AutoComplete } from 'choerodon-ui';
+import { Button, Input, AutoComplete } from 'choerodon-hap-ui';
 
 const Option = AutoComplete.Option;
 

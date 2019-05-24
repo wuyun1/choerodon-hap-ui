@@ -14,7 +14,7 @@ title:
 Controlled IntlField
 
 ````jsx
-import { IntlField } from 'choerodon-ui/pro';
+import { IntlField } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

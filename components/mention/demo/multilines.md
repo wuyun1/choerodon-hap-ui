@@ -14,7 +14,7 @@ title:
 Multi lines mode.
 
 ````jsx
-import { Mention } from 'choerodon-ui';
+import { Mention } from 'choerodon-hap-ui';
 const { toString } = Mention;
 
 function onChange(editorState) {

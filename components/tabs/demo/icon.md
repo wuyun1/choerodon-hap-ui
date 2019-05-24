@@ -15,7 +15,7 @@ The Tab with Icon.
 
 
 ````jsx
-import { Tabs, Icon } from 'choerodon-ui';
+import { Tabs, Icon } from 'choerodon-hap-ui';
 const TabPane = Tabs.TabPane;
 
 ReactDOM.render(

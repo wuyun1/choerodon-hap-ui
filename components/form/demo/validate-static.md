@@ -22,7 +22,7 @@ We provide properties like `validateStatus` `help` `hasFeedback` to customize yo
 3. `help`: display validate message.
 
 ````jsx
-import { Form, Input, DatePicker, Col, TimePicker, Select, Cascader, InputNumber } from 'choerodon-ui';
+import { Form, Input, DatePicker, Col, TimePicker, Select, Cascader, InputNumber } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 const Option = Select.Option;
 

@@ -7,7 +7,7 @@ import debounce from 'lodash/debounce';
 import axios from '../axios';
 import Record from './Record';
 import Field, { FieldProps, Fields } from './Field';
-import warning from 'choerodon-ui/lib/_util/warning';
+import warning from 'choerodon-hap-ui/lib/_util/warning';
 import { append, checkParentByInsert, doExport, findBindFieldBy, getFieldSorter, getOrderFields, sortTree } from './utils';
 import EventManager from '../_util/EventManager';
 import DataSetSnapshot from './DataSetSnapshot';

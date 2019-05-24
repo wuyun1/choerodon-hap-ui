@@ -19,7 +19,7 @@ Using the [AutoComplete](/components/auto-complete/) component is strongly recom
 
 
 ````jsx
-import { Select } from 'choerodon-ui';
+import { Select } from 'choerodon-hap-ui';
 const Option = Select.Option;
 
 class App extends React.Component {

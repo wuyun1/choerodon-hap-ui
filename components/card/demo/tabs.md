@@ -14,7 +14,7 @@ title:
 More content can be hosted.
 
 ````jsx
-import { Card } from 'choerodon-ui';
+import { Card } from 'choerodon-hap-ui';
 
 const tabList = [{
   key: 'tab1',

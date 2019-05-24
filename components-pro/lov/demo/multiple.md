@@ -14,7 +14,7 @@ title:
 Multiple values via property `multiple`.
 
 ````jsx
-import { DataSet, Lov } from 'choerodon-ui/pro';
+import { DataSet, Lov } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ record, name, value, oldValue }) {
   console.log('[dataset multiple]', value, '[oldValue]', oldValue, `[record.get('${name}')]`, record.get(name));

@@ -5,7 +5,7 @@ toc: false
 timeline: true
 ---
 
-`choerodon-ui` 严格遵循 [Semantic Versioning 2.0.0](http://semver.org/lang/zh-CN/) 语义化版本规范。
+`choerodon-hap-ui` 严格遵循 [Semantic Versioning 2.0.0](http://semver.org/lang/zh-CN/) 语义化版本规范。
 
 #### 发布周期
 
@@ -48,8 +48,8 @@ timeline: true
 
 `2019-04-01`
 
-- 🌟 并入`choerodon-ui/pro` 组件库。
-- 🌟 默认ant前缀改为c7n，如要使用ant前缀，请[修改主题变量@c7n-prefix](https://choerodon.github.io/choerodon-ui/docs/react/customize-theme-cn)，并使用[全局化配置](https://choerodon.github.io/choerodon-ui/components/configure-cn)。
+- 🌟 并入`choerodon-hap-ui/pro` 组件库。
+- 🌟 默认ant前缀改为c7n，如要使用ant前缀，请[修改主题变量@c7n-prefix](https://choerodon.github.io/choerodon-hap-ui/docs/react/customize-theme-cn)，并使用[全局化配置](https://choerodon.github.io/choerodon-hap-ui/components/configure-cn)。
 
 ## 0.5.5
 
@@ -170,7 +170,7 @@ timeline: true
 ## 0.3.8
 
 `2018-08-31`
- 
+
 - 🌟 `Icon`: 增加新的图标。。
 - 💄 `Input`: Input和select在compact模式和正常模式下都能对齐了。
 - 💄 `FormItem`: 表单输入框带有字数限制时，优化为报错提示时报错信息与横线无间距，且隐藏字数限制提示。

@@ -1,1 +1,1 @@
-import 'choerodon-ui/lib/spin/style';
+import 'choerodon-hap-ui/lib/spin/style';

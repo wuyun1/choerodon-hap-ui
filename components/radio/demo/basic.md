@@ -14,7 +14,7 @@ title:
 The simplest use.
 
 ```jsx
-import { Radio } from 'choerodon-ui';
+import { Radio } from 'choerodon-hap-ui';
 
 ReactDOM.render(<Radio>Radio</Radio>, mountNode);
 ```

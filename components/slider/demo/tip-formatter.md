@@ -14,7 +14,7 @@ title:
 Use `tipFormatter` to format content of `Toolip`. If `tipFormatter` is null, hide it.
 
 ````jsx
-import { Slider } from 'choerodon-ui';
+import { Slider } from 'choerodon-hap-ui';
 
 function formatter(value) {
   return `${value}%`;

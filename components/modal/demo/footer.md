@@ -20,7 +20,7 @@ the modal dialog will be closed.
 You could set `footer` to `null` if you don't need default footer buttons.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui';
+import { Modal, Button } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

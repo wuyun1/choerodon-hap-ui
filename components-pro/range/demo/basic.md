@@ -15,7 +15,7 @@ Numeric field with range control
 
 ````jsx
 
-import { Range } from 'choerodon-ui/pro';
+import { Range } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <div>

@@ -10,7 +10,7 @@ title:
 ## en-US
 
 ````jsx
-import { Form, DatePicker, TimePicker, Button } from 'choerodon-ui';
+import { Form, DatePicker, TimePicker, Button } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 const MonthPicker = DatePicker.MonthPicker;
 const RangePicker = DatePicker.RangePicker;

@@ -15,7 +15,7 @@ You can add extra actions to the right of Tabs.
 
 
 ````jsx
-import { Tabs, Button } from 'choerodon-ui';
+import { Tabs, Button } from 'choerodon-hap-ui';
 const TabPane = Tabs.TabPane;
 
 const operations = <Button>Extra Action</Button>;

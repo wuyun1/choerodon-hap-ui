@@ -5,7 +5,7 @@ import isString from 'lodash/isString';
 import omit from 'lodash/omit';
 import { observer } from 'mobx-react';
 import { action, computed, observable, runInAction } from 'mobx';
-import KeyCode from 'choerodon-ui/lib/_util/KeyCode';
+import KeyCode from 'choerodon-hap-ui/lib/_util/KeyCode';
 import noop from 'lodash/noop';
 import TriggerField, { TriggerFieldProps } from '../trigger-field/TriggerField';
 import DaysView, { DateViewProps } from './DaysView';
@@ -19,7 +19,7 @@ import { ValidationMessages } from '../validator/Validator';
 import autobind from '../_util/autobind';
 import { ViewMode } from './enum';
 import { stopEvent } from '../_util/EventManager';
-import warning from 'choerodon-ui/lib/_util/warning';
+import warning from 'choerodon-hap-ui/lib/_util/warning';
 import { FieldType } from '../data-set/enum';
 import { $l } from '../locale-context';
 

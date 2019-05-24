@@ -14,7 +14,7 @@ title:
 A notification box with a icon at the left side.
 
 ````jsx
-import { Button, notification } from 'choerodon-ui';
+import { Button, notification } from 'choerodon-hap-ui';
 
 const openNotificationWithIcon = (type) => {
   notification[type]({

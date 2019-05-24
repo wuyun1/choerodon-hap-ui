@@ -14,7 +14,7 @@ title:
 Customize Input Component
 
 ````jsx
-import { AutoComplete, Input } from 'choerodon-ui';
+import { AutoComplete, Input } from 'choerodon-hap-ui';
 const { TextArea } = Input;
 
 function onSelect(value) {

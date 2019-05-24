@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'bisheng/router';
 import { FormattedMessage } from 'react-intl';
 import classNames from 'classnames';
-import { Button, Col, Icon, Menu, Popover, Row, Select } from 'choerodon-ui';
+import { Button, Col, Icon, Menu, Popover, Row, Select } from 'choerodon-hap-ui';
 import * as utils from '../utils';
 import { version as c7nUIVersion } from '../../../../package.json';
 import logo from '../../static/images/logo-title.svg';
@@ -136,7 +136,7 @@ export default class Header extends React.Component {
       </Menu>,
     ];
 
-    // const searchPlaceholder = locale === 'zh-CN' ? '在 choerodon-ui 中搜索' : 'Search in choerodon-ui';
+    // const searchPlaceholder = locale === 'zh-CN' ? '在 choerodon-hap-ui 中搜索' : 'Search in choerodon-hap-ui';
     return (
       <header id="header" className={headerClassName}>
         {isMobile && (

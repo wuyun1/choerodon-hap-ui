@@ -14,7 +14,7 @@ title:
 To use `confirm()` to popup a confirmation modal dialog.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui';
+import { Modal, Button } from 'choerodon-hap-ui';
 const confirm = Modal.confirm;
 
 function showConfirm() {

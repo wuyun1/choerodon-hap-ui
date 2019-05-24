@@ -16,7 +16,7 @@ ColorPicker.
 
 
 ````jsx
-import { ColorPicker } from 'choerodon-ui/pro';
+import { ColorPicker } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <ColorPicker defaultValue="#f1c7f2" />,

@@ -14,7 +14,7 @@ title:
 By specifying `arrowPointAtCenter` prop, the arrow will point to the center of the target element.
 
 ````jsx
-import { Tooltip, Button } from 'choerodon-ui';
+import { Tooltip, Button } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

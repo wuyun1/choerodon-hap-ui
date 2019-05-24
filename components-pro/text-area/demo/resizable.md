@@ -2,7 +2,7 @@
 order: 1
 title:
   zh-CN: 拖拽调整大小
-  en-US: Resizable 
+  en-US: Resizable
 ---
 
 ## zh-CN
@@ -14,7 +14,7 @@ title:
 Resizable.
 
 ````jsx
-import { TextArea, Row, Col } from 'choerodon-ui/pro';
+import { TextArea, Row, Col } from 'choerodon-hap-ui/pro';
 
 
 ReactDOM.render(

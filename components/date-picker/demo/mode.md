@@ -14,7 +14,7 @@ title:
 Determing which panel to show with `mode` and `onPanelChange`.
 
 ````jsx
-import { DatePicker } from 'choerodon-ui';
+import { DatePicker } from 'choerodon-hap-ui';
 const { RangePicker } = DatePicker;
 
 class ControlledDatePicker extends React.Component {

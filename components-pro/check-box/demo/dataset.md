@@ -14,7 +14,7 @@ title:
 DataSet Binding
 
 ````jsx
-import { DataSet, CheckBox } from 'choerodon-ui/pro';
+import { DataSet, CheckBox } from 'choerodon-hap-ui/pro';
 
 function handleChange({ name, value, oldValue }) {
   console.log(`[dataset:${name}]`, value, '[oldValue]', oldValue);

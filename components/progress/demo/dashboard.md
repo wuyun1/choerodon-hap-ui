@@ -14,7 +14,7 @@ title:
 By setting `type=dashboard`, you can get a dashboard style of progress easily.
 
 ````jsx
-import { Progress } from 'choerodon-ui';
+import { Progress } from 'choerodon-hap-ui';
 
 ReactDOM.render(<Progress type="dashboard" percent={75} />, mountNode);
 ````

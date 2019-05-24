@@ -14,7 +14,7 @@ title:
 Tab's position: left, right, top or bottom.
 
 ````jsx
-import { Tabs, Select } from 'choerodon-ui';
+import { Tabs, Select } from 'choerodon-hap-ui';
 const TabPane = Tabs.TabPane;
 const Option = Select.Option;
 

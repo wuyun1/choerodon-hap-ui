@@ -20,7 +20,7 @@ Customized or third-party form controls can be used in Form, too. Controls must 
 > * It must be a class component.
 
 ````jsx
-import { Form, Input, Select, Button } from 'choerodon-ui';
+import { Form, Input, Select, Button } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 const Option = Select.Option;
 

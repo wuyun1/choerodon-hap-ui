@@ -14,7 +14,7 @@ title:
 Spin in a container.
 
 ````jsx
-import { Spin } from 'choerodon-ui';
+import { Spin } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div className="example">

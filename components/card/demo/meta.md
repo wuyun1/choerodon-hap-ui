@@ -14,7 +14,7 @@ title:
 A Card that supports `cover`, `avatar`, `title` and `description`.
 
 ````jsx
-import { Card, Icon, Avatar } from 'choerodon-ui';
+import { Card, Icon, Avatar } from 'choerodon-hap-ui';
 const { Meta } = Card;
 
 ReactDOM.render(

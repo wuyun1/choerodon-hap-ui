@@ -16,7 +16,7 @@ An options object can be provided to `autosize` to specify the minimum and maxim
 
 
 ````jsx
-import { Input } from 'choerodon-ui';
+import { Input } from 'choerodon-hap-ui';
 const { TextArea } = Input;
 
 ReactDOM.render(

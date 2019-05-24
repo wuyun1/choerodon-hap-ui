@@ -14,7 +14,7 @@ title:
 Upload files manually after `beforeUpload` returns `false`.
 
 ````jsx
-import { Upload, Button, Icon, message } from 'choerodon-ui';
+import { Upload, Button, Icon, message } from 'choerodon-hap-ui';
 import reqwest from 'reqwest';
 
 class Demo extends React.Component {

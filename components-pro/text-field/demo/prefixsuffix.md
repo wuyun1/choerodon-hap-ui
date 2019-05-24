@@ -14,7 +14,7 @@ title:
 Prefix & suffix.
 
 ````jsx
-import { TextField, Row, Col, Icon } from 'choerodon-ui/pro';
+import { TextField, Row, Col, Icon } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <Row gutter={10}>

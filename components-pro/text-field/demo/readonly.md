@@ -14,7 +14,7 @@ title:
 Read Only.
 
 ````jsx
-import { DataSet, TextField, Row, Col, Button } from 'choerodon-ui/pro';
+import { DataSet, TextField, Row, Col, Button } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   ds = new DataSet({

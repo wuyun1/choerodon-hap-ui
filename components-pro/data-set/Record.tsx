@@ -3,7 +3,7 @@ import cloneDeep from 'lodash/cloneDeep';
 import isNil from 'lodash/isNil';
 import isString from 'lodash/isString';
 import isNumber from 'lodash/isNumber';
-import warning from 'choerodon-ui/lib/_util/warning';
+import warning from 'choerodon-hap-ui/lib/_util/warning';
 import DataSet from './DataSet';
 import Field, { FieldProps, Fields } from './Field';
 import {

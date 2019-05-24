@@ -14,7 +14,7 @@ title:
 To show close button.
 
 ````jsx
-import { Alert } from 'choerodon-ui';
+import { Alert } from 'choerodon-hap-ui';
 
 const onClose = function (e) {
   console.log(e, 'I was closed.');

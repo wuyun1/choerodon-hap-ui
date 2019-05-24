@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ````jsx
-import { Rate } from 'choerodon-ui';
+import { Rate } from 'choerodon-hap-ui';
 
 ReactDOM.render(<Rate />, mountNode);
 ````

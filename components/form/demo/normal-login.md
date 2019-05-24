@@ -14,7 +14,7 @@ title:
 Normal login form which can contain more elements.
 
 ````jsx
-import { Form, Icon, Input, Button, Checkbox } from 'choerodon-ui';
+import { Form, Icon, Input, Button, Checkbox } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 
 class NormalLoginForm extends React.Component {

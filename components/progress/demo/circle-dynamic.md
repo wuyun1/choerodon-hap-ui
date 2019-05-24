@@ -14,7 +14,7 @@ title:
 A dynamic progress bar is better.
 
 ````jsx
-import { Progress, Button } from 'choerodon-ui';
+import { Progress, Button } from 'choerodon-hap-ui';
 const ButtonGroup = Button.Group;
 
 class App extends React.Component {

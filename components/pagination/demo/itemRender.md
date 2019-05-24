@@ -14,7 +14,7 @@ title:
 Use text link for prev and next button.
 
 ````jsx
-import { Pagination } from 'choerodon-ui';
+import { Pagination } from 'choerodon-hap-ui';
 
 function itemRender(current, type, originalElement) {
   if (type === 'prev') {

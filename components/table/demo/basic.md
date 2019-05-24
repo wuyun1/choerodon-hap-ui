@@ -14,7 +14,7 @@ title:
 Simple table with actions.
 
 ````jsx
-import { Table, Icon, Divider } from 'choerodon-ui';
+import { Table, Icon, Divider } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

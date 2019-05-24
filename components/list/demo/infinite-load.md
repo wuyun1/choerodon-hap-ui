@@ -14,7 +14,7 @@ title:
 The example of infinite load with [react-infinite-scroller](https://github.com/CassetteRocks/react-infinite-scroller).
 
 ````jsx
-import { List, message, Avatar, Spin } from 'choerodon-ui';
+import { List, message, Avatar, Spin } from 'choerodon-hap-ui';
 import reqwest from 'reqwest';
 
 import InfiniteScroll from 'react-infinite-scroller';
@@ -86,7 +86,7 @@ class InfiniteListExample extends React.Component {
               <List.Item key={item.id}>
                 <List.Item.Meta
                   avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                  title={<a href="https://choerodon.github.io/choerodon-ui/">{item.name.last}</a>}
+                  title={<a href="https://choerodon.github.io/choerodon-hap-ui/">{item.name.last}</a>}
                   description={item.email}
                 />
                 <div>Content</div>

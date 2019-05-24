@@ -14,7 +14,7 @@ title:
 The badge can be wrapped with `a` tag to make it linkable.
 
 ````jsx
-import { Badge } from 'choerodon-ui';
+import { Badge } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <a href="#">

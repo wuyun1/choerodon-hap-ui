@@ -1,5 +1,5 @@
-import componentsLocale from 'choerodon-ui/lib/locale-provider/zh_CN';
-import proComponentsLocale from 'choerodon-ui/pro/lib/locale-context/zh_CN';
+import componentsLocale from 'choerodon-hap-ui/lib/locale-provider/zh_CN';
+import proComponentsLocale from 'choerodon-hap-ui/pro/lib/locale-context/zh_CN';
 
 const appLocaleData = require('react-intl/locale-data/zh');
 

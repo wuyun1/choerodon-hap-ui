@@ -14,7 +14,7 @@ title:
 A notification box can pop up from `topRight` or `bottomRight` or `bottomLeft` or `topLeft`.
 
 ````jsx
-import { Button, Select, notification } from 'choerodon-ui';
+import { Button, Select, notification } from 'choerodon-hap-ui';
 
 const { Option } = Select;
 const options = ['topLeft', 'topRight', 'bottomLeft', 'bottomRight'];

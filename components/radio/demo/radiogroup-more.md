@@ -14,7 +14,7 @@ title:
 Vertical RadioGroup, with more radios.
 
 ```jsx
-import { Radio, Input } from 'choerodon-ui';
+import { Radio, Input } from 'choerodon-hap-ui';
 const RadioGroup = Radio.Group;
 
 class App extends React.Component {

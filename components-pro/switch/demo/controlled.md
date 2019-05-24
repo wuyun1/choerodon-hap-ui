@@ -14,7 +14,7 @@ title:
 Controlled.
 
 ````jsx
-import { Switch } from 'choerodon-ui/pro';
+import { Switch } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

@@ -14,7 +14,7 @@ title:
 Replace the default star to other character like alphabet, digit, iconfont or even Chinese word.
 
 ````jsx
-import { Rate, Icon } from 'choerodon-ui';
+import { Rate, Icon } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

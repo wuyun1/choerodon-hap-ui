@@ -16,7 +16,7 @@ Buttons display mode, flat and raised, default raised.
 
 
 ````jsx
-import { DataSet, Button } from 'choerodon-ui/pro';
+import { DataSet, Button } from 'choerodon-hap-ui/pro';
 import { runInAction } from 'mobx';
 
 class App extends React.Component {

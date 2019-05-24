@@ -14,7 +14,7 @@ title:
 Customized description content.
 
 ````jsx
-import { Spin, Alert } from 'choerodon-ui';
+import { Spin, Alert } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Spin tip="Loading...">

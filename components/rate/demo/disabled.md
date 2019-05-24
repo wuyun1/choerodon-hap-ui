@@ -14,7 +14,7 @@ title:
 Read only, can't use mouse to interact.
 
 ````jsx
-import { Rate } from 'choerodon-ui';
+import { Rate } from 'choerodon-hap-ui';
 
 ReactDOM.render(<Rate disabled defaultValue={2} />, mountNode);
 ````

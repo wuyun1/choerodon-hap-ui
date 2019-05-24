@@ -14,7 +14,7 @@ title:
 If you want to use a customized trigger, you can hide the default one by setting `trigger={null}`.
 
 ````jsx
-import { Layout, Menu, Icon } from 'choerodon-ui';
+import { Layout, Menu, Icon } from 'choerodon-hap-ui';
 const { Header, Sider, Content } = Layout;
 
 class SiderDemo extends React.Component {

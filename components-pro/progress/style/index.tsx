@@ -1,1 +1,1 @@
-import 'choerodon-ui/lib/progress/style';
+import 'choerodon-hap-ui/lib/progress/style';

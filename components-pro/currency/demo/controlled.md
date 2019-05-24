@@ -14,7 +14,7 @@ title:
 Controlled Currency
 
 ````jsx
-import { Currency } from 'choerodon-ui/pro';
+import { Currency } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

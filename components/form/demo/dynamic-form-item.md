@@ -14,7 +14,7 @@ title:
 Add or remove form items dynamically.
 
 ````jsx
-import { Form, Input, Icon, Button } from 'choerodon-ui';
+import { Form, Input, Icon, Button } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 
 let uuid = 0;

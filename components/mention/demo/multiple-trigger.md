@@ -14,7 +14,7 @@ title:
 Customize Trigger Token by `prefix` props. Default to `@`, `Array<string>` also supported.
 
 ````jsx
-import { Mention } from 'choerodon-ui';
+import { Mention } from 'choerodon-hap-ui';
 const { toString } = Mention;
 
 function onChange(editorState) {

@@ -11,7 +11,7 @@ import TableContext from './TableContext';
 import { ElementProps } from '../core/ViewComponent';
 import Icon from '../icon';
 import DataSet from '../data-set/DataSet';
-import { pxToRem } from 'choerodon-ui/lib/_util/UnitConvertor';
+import { pxToRem } from 'choerodon-hap-ui/lib/_util/UnitConvertor';
 import EventManager from '../_util/EventManager';
 import { getAlignByField, getColumnKey, getHeader } from './utils';
 import { ColumnAlign } from './enum';

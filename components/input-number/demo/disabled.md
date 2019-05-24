@@ -14,7 +14,7 @@ title:
 Click the button to toggle between available and disabled states.
 
 ````jsx
-import { InputNumber, Button } from 'choerodon-ui';
+import { InputNumber, Button } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

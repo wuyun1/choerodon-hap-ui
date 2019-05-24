@@ -14,9 +14,9 @@ title:
 Use hotkey to format code.
 
 ````jsx
-import { CodeArea, DataSet } from 'choerodon-ui/pro';
+import { CodeArea, DataSet } from 'choerodon-hap-ui/pro';
 // 引入格式化器，注意使用模块的默认导出
-import HTMLFormatter from 'choerodon-ui/pro/lib/code-area/formatters/HTMLFormatter';
+import HTMLFormatter from 'choerodon-hap-ui/pro/lib/code-area/formatters/HTMLFormatter';
 // 处理 codemirror 的SSR问题， 如无需SSR，请用import代替require;
 if (typeof window !== 'undefined') {
   // 提供对应语言的语法高亮

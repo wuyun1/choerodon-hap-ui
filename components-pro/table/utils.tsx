@@ -23,7 +23,7 @@ import IntlField from '../intl-field/IntlField';
 import UrlField from '../url-field/UrlField';
 import EmailField from '../email-field/EmailField';
 import ColorPicker from '../color-picker/ColorPicker';
-import warning from 'choerodon-ui/lib/_util/warning';
+import warning from 'choerodon-hap-ui/lib/_util/warning';
 import DataSet from '../data-set/DataSet';
 import TableStore from './TableStore';
 import { TablePaginationConfig } from './Table';

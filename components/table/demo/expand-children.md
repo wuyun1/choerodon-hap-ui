@@ -18,7 +18,7 @@ Display tree structure data in Table, control the indent width by setting `inden
 > Note, no support for recursive selection of tree structure data table yet.
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

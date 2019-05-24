@@ -22,7 +22,7 @@ To fix some columns and scroll inside other columns, and you must set `scroll.x`
 > A fixed value which is greater than table width for `scroll.x` is recommended. The sum of unfixed columns should not greater than `scroll.x`.
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 
 const columns = [
   { title: 'Full Name', width: 100, dataIndex: 'name', key: 'name', fixed: 'left' },

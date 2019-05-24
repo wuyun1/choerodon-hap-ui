@@ -16,7 +16,7 @@
       "es2017.object"
     ],
     "paths": {
-      "choerodon-ui/lib/*": [
+      "choerodon-hap-ui/lib/*": [
         "./components/*"
       ]
     }

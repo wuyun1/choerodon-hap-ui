@@ -14,7 +14,7 @@ title:
 Table with editable cells.
 
 ````jsx
-import { Table, Input, Icon, Button, Popconfirm } from 'choerodon-ui';
+import { Table, Input, Icon, Button, Popconfirm } from 'choerodon-hap-ui';
 
 class EditableCell extends React.Component {
   state = {

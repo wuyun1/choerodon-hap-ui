@@ -14,7 +14,7 @@ title:
 Horizontal login form is often used in navigation bar.
 
 ````jsx
-import { Form, Icon, Input, Button } from 'choerodon-ui';
+import { Form, Icon, Input, Button } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 
 function hasErrors(fieldsError) {

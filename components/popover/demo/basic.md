@@ -14,7 +14,7 @@ title:
 The most basic example. The size of the floating layer depends on the contents region.
 
 ````jsx
-import { Popover, Button } from 'choerodon-ui';
+import { Popover, Button } from 'choerodon-hap-ui';
 
 const content = (
   <div>

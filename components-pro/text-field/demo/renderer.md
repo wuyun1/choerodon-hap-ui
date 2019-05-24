@@ -14,7 +14,7 @@ title:
 Renderer.
 
 ````jsx
-import { DataSet, TextField, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, TextField, Row, Col } from 'choerodon-hap-ui/pro';
 
 function valueRenderer({ value }) {
   return `${value}个`;

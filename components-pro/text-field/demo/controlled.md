@@ -14,7 +14,7 @@ title:
 Controlled TextField
 
 ````jsx
-import { TextField } from 'choerodon-ui/pro';
+import { TextField } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

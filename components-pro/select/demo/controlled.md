@@ -14,7 +14,7 @@ title:
 Controlled Select.
 
 ````jsx
-import { Select } from 'choerodon-ui/pro';
+import { Select } from 'choerodon-hap-ui/pro';
 
 const { Option } = Select;
 

@@ -1,1 +1,1 @@
-import 'choerodon-ui/lib/grid/style';
+import 'choerodon-hap-ui/lib/grid/style';

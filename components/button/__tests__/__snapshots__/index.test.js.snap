@@ -102,7 +102,7 @@ exports[`Button renders correctly 1`] = `
 exports[`Button should support link button 1`] = `
 <a
   class="c7n-btn c7n-btn-flat"
-  href="https://choerodon.github.io/choerodon-ui/"
+  href="https://choerodon.github.io/choerodon-hap-ui/"
   target="_blank"
 >
   <span>

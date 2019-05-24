@@ -14,7 +14,7 @@ title:
 A standard progress bar.
 
 ````jsx
-import { Tooltip, Progress } from 'choerodon-ui';
+import { Tooltip, Progress } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Tooltip title="3 done / 3 in progress / 4 to do">

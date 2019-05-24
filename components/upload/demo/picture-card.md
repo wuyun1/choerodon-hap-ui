@@ -14,7 +14,7 @@ title:
 After users upload picture, the thumbnail will be shown in list. The upload button will disappear when count meets limitation.
 
 ````jsx
-import { Upload, Icon, Modal } from 'choerodon-ui';
+import { Upload, Icon, Modal } from 'choerodon-hap-ui';
 
 class PicturesWall extends React.Component {
   state = {

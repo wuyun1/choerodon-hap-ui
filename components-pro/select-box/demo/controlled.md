@@ -14,7 +14,7 @@ title:
 Controlled SelectBox.
 
 ````jsx
-import { SelectBox } from 'choerodon-ui/pro';
+import { SelectBox } from 'choerodon-hap-ui/pro';
 
 const { Option } = SelectBox;
 

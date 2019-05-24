@@ -14,7 +14,7 @@ title:
 Should be used at the top of container, needs to override styles.
 
 ````jsx
-import { Tabs } from 'choerodon-ui';
+import { Tabs } from 'choerodon-hap-ui';
 const TabPane = Tabs.TabPane;
 
 ReactDOM.render(

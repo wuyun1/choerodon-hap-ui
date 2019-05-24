@@ -14,7 +14,7 @@ title:
 Autocomplete with remote ajax data.
 
 ````jsx
-import { Select } from 'choerodon-ui';
+import { Select } from 'choerodon-hap-ui';
 import jsonp from 'fetch-jsonp';
 import queryString from 'querystringify';
 const Option = Select.Option;

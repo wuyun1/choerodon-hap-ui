@@ -14,7 +14,7 @@ title:
 A simple playground for column count and gutter.
 
 ````jsx
-import { Row, Col, Slider } from 'choerodon-ui';
+import { Row, Col, Slider } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   gutters = {};

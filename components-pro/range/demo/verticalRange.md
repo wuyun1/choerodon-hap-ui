@@ -14,7 +14,7 @@ title:
 The vertical direction of the Range
 
 ````jsx
-import { Range } from 'choerodon-ui/pro';
+import { Range } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <div style={{ height: 200 }}>

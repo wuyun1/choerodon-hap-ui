@@ -14,7 +14,7 @@ title:
 Nested inside a container element for rendering in limited space.
 
 ````jsx
-import { Calendar } from 'choerodon-ui';
+import { Calendar } from 'choerodon-hap-ui';
 
 function onPanelChange(value, mode) {
   console.log(value, mode);

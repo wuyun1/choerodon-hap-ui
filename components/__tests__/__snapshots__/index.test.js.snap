@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`choerodon-ui exports modules correctly 1`] = `
+exports[`choerodon-hap-ui exports modules correctly 1`] = `
 Array [
   "Affix",
   "Anchor",

@@ -14,7 +14,7 @@ title:
 This component can be rendered by using `dateCellRender` and `monthCellRender` with the data you need.
 
 ````jsx
-import { Calendar, Badge } from 'choerodon-ui';
+import { Calendar, Badge } from 'choerodon-hap-ui';
 
 function getListData(value) {
   let listData;

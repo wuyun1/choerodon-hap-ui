@@ -14,7 +14,7 @@ title:
 Smoothly and unaffectedly unmount Alert.
 
 ````jsx
-import { Alert } from 'choerodon-ui';
+import { Alert } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

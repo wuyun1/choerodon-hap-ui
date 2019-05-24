@@ -5,7 +5,7 @@ import { computed, get } from 'mobx';
 import { ColumnProps } from './Column';
 import { ElementProps } from '../core/ViewComponent';
 import TableContext from './TableContext';
-import { pxToRem } from 'choerodon-ui/lib/_util/UnitConvertor';
+import { pxToRem } from 'choerodon-hap-ui/lib/_util/UnitConvertor';
 import { ColumnLock } from './enum';
 import DataSet from '../data-set/DataSet';
 import TableFooterCell from './TableFooterCell';

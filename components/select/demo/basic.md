@@ -14,7 +14,7 @@ title:
 Basic Usage.
 
 ````jsx
-import { Select } from 'choerodon-ui';
+import { Select } from 'choerodon-hap-ui';
 const Option = Select.Option;
 
 function handleChange(value) {

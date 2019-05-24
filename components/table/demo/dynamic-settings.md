@@ -14,7 +14,7 @@ title:
 Select different settings to see the result.
 
 ````jsx
-import { Table, Icon, Switch, Radio, Form, Divider } from 'choerodon-ui';
+import { Table, Icon, Switch, Radio, Form, Divider } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 
 const columns = [{

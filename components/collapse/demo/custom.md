@@ -14,7 +14,7 @@ title:
 Customize the background, border and margin styles for each panel.
 
 ````jsx
-import { Collapse } from 'choerodon-ui';
+import { Collapse } from 'choerodon-hap-ui';
 const Panel = Collapse.Panel;
 
 const text = `

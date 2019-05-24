@@ -6,7 +6,7 @@ import { FormattedMessage } from 'react-intl';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import classNames from 'classnames';
 import LZString from 'lz-string';
-import { Icon, Tooltip } from 'choerodon-ui';
+import { Icon, Tooltip } from 'choerodon-hap-ui';
 import EditButton from './EditButton';
 import BrowserFrame from '../BrowserFrame';
 
@@ -129,7 +129,7 @@ export default class Demo extends React.Component {
       'highlight-wrapper-expand': codeExpand,
     });
 
-    const prefillStyle = `@import 'choerodon-ui/dist/choerodon-ui.css';\n\n${style || ''}`.replace(new RegExp(`#${meta.id}\\s*`, 'g'), '');
+    const prefillStyle = `@import 'choerodon-hap-ui/dist/choerodon-hap-ui.css';\n\n${style || ''}`.replace(new RegExp(`#${meta.id}\\s*`, 'g'), '');
     const html = `<div id="container" style="padding: 24px"></div>
 <script>
   var mountNode = document.getElementById('container');
@@ -138,17 +138,17 @@ export default class Demo extends React.Component {
     const codepenPrefillConfig = {
       title: `${localizedTitle} - Choerodon UI Demo`,
       html,
-      js: state.sourceCode.replace(/import\s+\{\s+(.*)\s+\}\s+from\s+'choerodon-ui';/, 'const { $1 } = window["choerodon-ui"];'),
+      js: state.sourceCode.replace(/import\s+\{\s+(.*)\s+\}\s+from\s+'choerodon-hap-ui';/, 'const { $1 } = window["choerodon-hap-ui"];'),
       css: prefillStyle,
       editors: '001',
-      css_external: 'https://unpkg.com/choerodon-ui/dist/choerodon-ui.css',
+      css_external: 'https://unpkg.com/choerodon-hap-ui/dist/choerodon-hap-ui.css',
       js_external: [
         'react@16.6.x/umd/react.production.min.js',
         'react-dom@16.6.x/umd/react-dom.production.min.js',
         'moment/min/moment-with-locales.min.js',
         'mobx@4.7.0/lib/mobx.umd.min.js',
         'mobx-react@5.1.x/index.min.js',
-        'choerodon-ui/dist/choerodon-ui-with-locales.js',
+        'choerodon-hap-ui/dist/choerodon-hap-ui-with-locales.js',
       ].map(url => `https://unpkg.com/${url}`).join(';'),
       js_pre_processor: 'typescript',
     };
@@ -173,7 +173,7 @@ export default class Demo extends React.Component {
           content: `
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'choerodon-ui/dist/choerodon-ui.css';
+import 'choerodon-hap-ui/dist/choerodon-hap-ui.css';
 import './index.css';
 ${state.sourceCode.replace('mountNode', 'document.getElementById(\'container\')')}
           `,

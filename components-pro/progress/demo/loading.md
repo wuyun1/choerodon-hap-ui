@@ -16,7 +16,7 @@ Loading.
 
 
 ````jsx
-import { Progress } from 'choerodon-ui/pro';
+import { Progress } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <div>

@@ -14,7 +14,7 @@ title:
 Creating a grid list by setting the `grid` property of List
 
 ````jsx
-import { List, Card } from 'choerodon-ui';
+import { List, Card } from 'choerodon-hap-ui';
 
 const data = [
   {

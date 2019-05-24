@@ -32,8 +32,8 @@ Specify the `theme` property in the `package.json` or `.webpackrc` file, whose v
 Note:
 
 - Importing styles from less files is necessary.
-  - If you import styles by specifying the `style` option of [babel-plugin-import](https://github.com/ant-design/babel-plugin-import), change it from `'css'` to `true`, which will import the `less` version of choerodon-ui.
-  - If you import styles from `'choerodon-ui/dist/choerodon-ui.css'`, change it to `choerodon-ui/dist/choerodon-ui.less`.
+  - If you import styles by specifying the `style` option of [babel-plugin-import](https://github.com/ant-design/babel-plugin-import), change it from `'css'` to `true`, which will import the `less` version of choerodon-hap-ui.
+  - If you import styles from `'choerodon-hap-ui/dist/choerodon-hap-ui.css'`, change it to `choerodon-hap-ui/dist/choerodon-hap-ui.less`.
 - When using `dva-cli@0.7.0+`, you should add the `theme` block to [.roadhogrc](https://github.com/dvajs/dva-example-user-dashboard/commit/d6da33b3a6e18eb7f003752a4b00b5a660747c31) instead of `package.json`.
 - If you want to override `@icon-url`, the value must be contained in quotes like `"@icon-url": "'your-icon-font-path'"` ([A fix sample](https://github.com/visvadw/dvajs-user-dashboard/pull/2)).
 
@@ -44,7 +44,7 @@ Override variables via less definition files.
 Create a standalone less file like the one below, and import it in your project.
 
    ```css
-   @import "~choerodon-ui/dist/choerodon-ui.less";   // import official less entry file
+   @import "~choerodon-hap-ui/dist/choerodon-hap-ui.less";   // import official less entry file
    @import "your-theme-file.less";   // override variables here
    ```
 

@@ -14,7 +14,7 @@ title:
 The simplest use
 
 ````jsx
-import { Breadcrumb } from 'choerodon-ui';
+import { Breadcrumb } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Breadcrumb>

@@ -14,7 +14,7 @@ title:
 Set `okText` and `cancelText` props to customise the button's labels.
 
 ````jsx
-import { Popconfirm } from 'choerodon-ui';
+import { Popconfirm } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Popconfirm title="Are you sure？" okText="Yes" cancelText="No">

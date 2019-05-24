@@ -14,7 +14,7 @@ title:
 With text and icon.
 
 ````jsx
-import { Switch, Icon } from 'choerodon-ui/pro';
+import { Switch, Icon } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <div>

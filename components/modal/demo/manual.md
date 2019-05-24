@@ -14,7 +14,7 @@ title:
 Manually destroying a modal.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui';
+import { Modal, Button } from 'choerodon-hap-ui';
 
 function success() {
   const modal = Modal.success({

@@ -15,7 +15,7 @@ To perform operations and clear selections after selecting some rows, use `rowSe
 
 
 ````jsx
-import { Table, Button } from 'choerodon-ui';
+import { Table, Button } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

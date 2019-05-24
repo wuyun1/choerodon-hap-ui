@@ -14,7 +14,7 @@ title:
 A numeric-only input box whose values can be increased or decreased using a decimal step. The number of decimals (also known as precision) is determined by the step prop.
 
 ````jsx
-import { InputNumber } from 'choerodon-ui';
+import { InputNumber } from 'choerodon-hap-ui';
 
 function onChange(value) {
   console.log('changed', value);

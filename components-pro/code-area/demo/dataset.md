@@ -14,7 +14,7 @@ title:
 Dataset.
 
 ````jsx
-import { CodeArea, DataSet } from 'choerodon-ui/pro';
+import { CodeArea, DataSet } from 'choerodon-hap-ui/pro';
 
 const jsonText = `{
   "compilerOptions": {

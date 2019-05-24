@@ -14,7 +14,7 @@ title:
 To load data asynchronously when click to expand a treeNode.
 
 ````jsx
-import { Tree } from 'choerodon-ui';
+import { Tree } from 'choerodon-hap-ui';
 const TreeNode = Tree.TreeNode;
 
 class Demo extends React.Component {

@@ -14,7 +14,7 @@ title:
 `${overflowCount}+` is displayed when count is larger than `overflowCount`. The default value of `overflowCount` is `99`.
 
 ````jsx
-import { Badge } from 'choerodon-ui';
+import { Badge } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

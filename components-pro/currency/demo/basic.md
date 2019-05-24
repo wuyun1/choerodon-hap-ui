@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ````jsx
-import { Currency, Row, Col } from 'choerodon-ui/pro';
+import { Currency, Row, Col } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <div>

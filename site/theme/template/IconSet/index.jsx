@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from 'choerodon-ui';
+import { Icon } from 'choerodon-hap-ui';
 import Category from './Category';
 
 function renderCategories() {

@@ -14,7 +14,7 @@ title:
 Button View Mode.
 
 ````jsx
-import { SelectBox, Row, Col } from 'choerodon-ui/pro';
+import { SelectBox, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleChange(value, oldValue) {
   console.log('[button new]', value, '[button old]', oldValue);

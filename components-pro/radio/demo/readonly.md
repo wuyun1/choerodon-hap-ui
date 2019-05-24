@@ -14,7 +14,7 @@ title:
 Read Only.
 
 ````jsx
-import { Radio, DataSet } from 'choerodon-ui/pro';
+import { Radio, DataSet } from 'choerodon-hap-ui/pro';
 
 const data = [{ rd: 'C' }];
 

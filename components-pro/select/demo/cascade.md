@@ -14,7 +14,7 @@ title:
 Options Cascade
 
 ````jsx
-import { DataSet, Select, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, Select, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ record, value, oldValue }) {
   console.log('[dataset]', value, '[oldValue]', oldValue, '[record.toJSONData()]', record.toJSONData());

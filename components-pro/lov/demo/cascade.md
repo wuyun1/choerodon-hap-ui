@@ -14,7 +14,7 @@ LOV级联。
 LOV Cascade
 
 ````jsx
-import { DataSet, Lov, Select, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, Lov, Select, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ record, value, oldValue }) {
   console.log('[dataset newValue]', value, '[oldValue]', oldValue, '[record.toJSONData()]', record.toJSONData());

@@ -14,7 +14,7 @@ title:
 Select
 
 ````jsx
-import { Select, Row, Col } from 'choerodon-ui/pro';
+import { Select, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleChange(value, oldValue) {
   console.log('[basic new]', value, '[basic old]', oldValue);

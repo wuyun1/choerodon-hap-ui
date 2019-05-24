@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CopyToClipboard from 'react-copy-to-clipboard';
-import { Icon } from 'choerodon-ui';
+import { Icon } from 'choerodon-hap-ui';
 
 export default class CopyableIcon extends Component {
   handleCopy = (text) => {

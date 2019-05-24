@@ -14,7 +14,7 @@ title:
 Button display.
 
 ````jsx
-import { CheckBox } from 'choerodon-ui/pro';
+import { CheckBox } from 'choerodon-hap-ui/pro';
 
 function handleChange(value, oldValue) {
   console.log('[button]', value, '[oldValue]', oldValue);

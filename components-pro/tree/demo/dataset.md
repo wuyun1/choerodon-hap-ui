@@ -14,7 +14,7 @@ title:
 DataSet.
 
 ````jsx
-import { DataSet, Tree } from 'choerodon-ui/pro';
+import { DataSet, Tree } from 'choerodon-hap-ui/pro';
 
 function nodeRenderer({ record }) {
   return record.get('text');

@@ -14,7 +14,7 @@ title:
 Render extra footer in panel for customized requirements.
 
 ````jsx
-import { DatePicker } from 'choerodon-ui';
+import { DatePicker } from 'choerodon-hap-ui';
 const { RangePicker, MonthPicker } = DatePicker;
 
 ReactDOM.render(

@@ -14,7 +14,7 @@ title:
 To customize the text of the buttons, you need to set `okText` and `cancelText` props.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui';
+import { Modal, Button } from 'choerodon-hap-ui';
 
 class LocalizedModal extends React.Component {
   state = { visible: false }

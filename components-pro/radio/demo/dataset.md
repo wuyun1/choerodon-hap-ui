@@ -14,7 +14,7 @@ title:
 DataSet Binding
 
 ````jsx
-import { DataSet, Radio } from 'choerodon-ui/pro';
+import { DataSet, Radio } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ value, oldValue }) {
   console.log('[dataset newValue]', value, '[oldValue]', oldValue);

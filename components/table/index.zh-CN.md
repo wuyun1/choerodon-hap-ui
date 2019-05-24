@@ -186,8 +186,8 @@ const columns = [{
 ## 在 TypeScript 中使用
 
 ```jsx
-import { Table } from 'choerodon-ui';
-import { ColumnProps } from 'choerodon-ui/lib/table';
+import { Table } from 'choerodon-hap-ui';
+import { ColumnProps } from 'choerodon-hap-ui/lib/table';
 
 interface IUser {
   key: number;

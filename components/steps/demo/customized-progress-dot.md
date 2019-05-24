@@ -14,7 +14,7 @@ title:
 You can customize the display for Steps with progress dot style.
 
 ````jsx
-import { Steps, Popover } from 'choerodon-ui';
+import { Steps, Popover } from 'choerodon-hap-ui';
 const Step = Steps.Step;
 
 const customDot = (dot, { status, index }) => (

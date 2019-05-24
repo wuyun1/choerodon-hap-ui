@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { action, observable } from 'mobx';
-import { pxToRem } from 'choerodon-ui/lib/_util/UnitConvertor';
-import measureScrollbar from 'choerodon-ui/lib/_util/measureScrollbar';
+import { pxToRem } from 'choerodon-hap-ui/lib/_util/UnitConvertor';
+import measureScrollbar from 'choerodon-hap-ui/lib/_util/measureScrollbar';
 import IconItem from './IconItem';
 import Pagination from '../pagination/Pagination';
 

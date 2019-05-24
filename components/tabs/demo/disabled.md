@@ -14,7 +14,7 @@ title:
 Disabled a tab.
 
 ````jsx
-import { Tabs } from 'choerodon-ui';
+import { Tabs } from 'choerodon-hap-ui';
 const TabPane = Tabs.TabPane;
 
 ReactDOM.render(

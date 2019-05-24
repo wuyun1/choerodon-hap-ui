@@ -14,7 +14,7 @@ title:
 DataSet binding.
 
 ````jsx
-import { DataSet, Pagination } from 'choerodon-ui/pro';
+import { DataSet, Pagination } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   ds = new DataSet({

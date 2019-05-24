@@ -14,7 +14,7 @@ title:
 Multiple and checkable.
 
 ````jsx
-import { TreeSelect } from 'choerodon-ui';
+import { TreeSelect } from 'choerodon-hap-ui';
 const SHOW_PARENT = TreeSelect.SHOW_PARENT;
 
 const treeData = [{

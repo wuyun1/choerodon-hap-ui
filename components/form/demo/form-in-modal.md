@@ -14,7 +14,7 @@ title:
 When user visit a page with a list of items, and want to create a new item. The page can popup a form in Modal, then let user fills in the form to create an item.
 
 ````jsx
-import { Button, Modal, Form, Input, Radio } from 'choerodon-ui';
+import { Button, Modal, Form, Input, Radio } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 
 const CollectionCreateForm = Form.create()(

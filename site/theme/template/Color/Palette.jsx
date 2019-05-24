@@ -1,5 +1,5 @@
 import React from 'react';
-import { message } from 'choerodon-ui';
+import { message } from 'choerodon-hap-ui';
 import CopyToClipboard from 'react-copy-to-clipboard';
 
 const rgbToHex = (rgbString) => {

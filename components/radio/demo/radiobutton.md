@@ -14,7 +14,7 @@ title:
 The combination of radio button style.
 
 ```jsx
-import { Radio } from 'choerodon-ui';
+import { Radio } from 'choerodon-hap-ui';
 const RadioButton = Radio.Button;
 const RadioGroup = Radio.Group;
 

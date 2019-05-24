@@ -15,7 +15,7 @@ DataSet Binding
 
 ````jsx
 
-import { DataSet, Range } from 'choerodon-ui/pro';
+import { DataSet, Range } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ value, oldValue }) {
   console.log('[dataset]', value, '[oldValue]', oldValue);

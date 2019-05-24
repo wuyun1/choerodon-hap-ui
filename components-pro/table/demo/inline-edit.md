@@ -14,7 +14,7 @@ title:
 Inline Edit.
 
 ````jsx
-import { DataSet, Table, Button } from 'choerodon-ui/pro';
+import { DataSet, Table, Button } from 'choerodon-hap-ui/pro';
 
 const { Column } = Table;
 

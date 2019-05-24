@@ -1,3 +1,3 @@
-import message from 'choerodon-ui/lib/message';
+import message from 'choerodon-hap-ui/lib/message';
 
 export default message;

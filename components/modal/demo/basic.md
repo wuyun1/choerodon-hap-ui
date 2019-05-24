@@ -14,7 +14,7 @@ title:
 Basic modal.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui';
+import { Modal, Button } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = { visible: false }

@@ -14,7 +14,7 @@ title:
 Make sure that Radio has the same name property to implement the radio function.
 
 ````jsx
-import { Radio } from 'choerodon-ui/pro';
+import { Radio } from 'choerodon-hap-ui/pro';
 
 function handleChange(value) {
   console.log('[basic]', value);

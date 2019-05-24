@@ -15,7 +15,7 @@ debug: true
 Adjust popup placement automatically when popup is invisible
 
 ````jsx
-import { Tooltip, Button } from 'choerodon-ui/pro';
+import { Tooltip, Button } from 'choerodon-hap-ui/pro';
 
 const wrapStyles = {
   overflow: 'hidden',

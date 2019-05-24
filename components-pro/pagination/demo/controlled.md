@@ -14,7 +14,7 @@ title:
 Controlled TextField
 
 ````jsx
-import { Pagination } from 'choerodon-ui/pro';
+import { Pagination } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   state = {

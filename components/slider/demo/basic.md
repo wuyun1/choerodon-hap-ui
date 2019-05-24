@@ -14,7 +14,7 @@ title:
 Basic slider. When `range` is `true`, display as dual thumb mode. When `disable` is `true`, the slider will not be interactable.
 
 ````jsx
-import { Slider, Switch } from 'choerodon-ui';
+import { Slider, Switch } from 'choerodon-hap-ui';
 
 class Demo extends React.Component {
   state = {

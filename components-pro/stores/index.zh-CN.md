@@ -11,7 +11,7 @@ title: Stores
 ## 使用
 
 ```jsx
-import { Stores } from 'choerodon-ui/pro';
+import { Stores } from 'choerodon-hap-ui/pro';
 
 // 请求Lov配置，优先返回缓存中的数据
 const config = await Stores.LovCodeStore.fetchConfig('LOV_CODE');

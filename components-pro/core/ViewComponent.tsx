@@ -8,7 +8,7 @@ import defer from 'lodash/defer';
 import merge from 'lodash/merge';
 import noop from 'lodash/noop';
 import classes from 'component-classes';
-import { getProPrefixCls } from 'choerodon-ui/lib/configure';
+import { getProPrefixCls } from 'choerodon-hap-ui/lib/configure';
 import autobind from '../_util/autobind';
 import { Size } from './enum';
 import normalizeLanguage from '../_util/normalizeLanguage';

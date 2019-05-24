@@ -14,7 +14,7 @@ title:
 Numeric-only input box.
 
 ````jsx
-import { InputNumber } from 'choerodon-ui';
+import { InputNumber } from 'choerodon-hap-ui';
 
 function onChange(value) {
   console.log('changed', value);

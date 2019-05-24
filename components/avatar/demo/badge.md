@@ -14,7 +14,7 @@ title:
 Usually used for messages remind.
 
 ````jsx
-import { Avatar, Badge } from 'choerodon-ui';
+import { Avatar, Badge } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

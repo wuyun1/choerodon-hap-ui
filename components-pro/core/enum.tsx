@@ -1,1 +1,1 @@
-export { Size } from 'choerodon-ui/lib/_util/enum';
+export { Size } from 'choerodon-hap-ui/lib/_util/enum';

@@ -13,7 +13,7 @@ import localeContext from '../locale-context';
 import { findInvalidField, processValue } from './utils';
 import Validity from '../validator/Validity';
 import ValidationResult from '../validator/ValidationResult';
-import { getConfig } from 'choerodon-ui/lib/configure';
+import { getConfig } from 'choerodon-hap-ui/lib/configure';
 import { LovConfig } from '../lov/Lov';
 
 export type Fields = ObservableMap<string, Field>;

@@ -170,8 +170,8 @@ CustomizedForm = Form.create({})(CustomizedForm);
 ## 在 TypeScript 中使用
 
 ```jsx
-import { Form } from 'choerodon-ui';
-import { FormComponentProps } from 'choerodon-ui/lib/form';
+import { Form } from 'choerodon-hap-ui';
+import { FormComponentProps } from 'choerodon-hap-ui/lib/form';
 
 interface UserFormProps extends FormComponentProps {
   age: number;

@@ -14,7 +14,7 @@ title:
 To mark a button as disabled, add the `disabled` property to the `Button`.
 
 ````jsx
-import { Button } from 'choerodon-ui';
+import { Button } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

@@ -14,7 +14,7 @@ title:
 Classic page layouts.
 
 ````jsx
-import { Layout } from 'choerodon-ui';
+import { Layout } from 'choerodon-hap-ui';
 const { Header, Footer, Sider, Content } = Layout;
 
 ReactDOM.render(

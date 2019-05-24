@@ -15,7 +15,7 @@ title:
 You can customize icons for different nodes by styles override.
 
 ````jsx
-import { Tree, Icon } from 'choerodon-ui';
+import { Tree, Icon } from 'choerodon-hap-ui';
 const TreeNode = Tree.TreeNode;
 
 class Demo extends React.Component {

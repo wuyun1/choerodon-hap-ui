@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ````jsx
-import { Password, Row, Col } from 'choerodon-ui/pro';
+import { Password, Row, Col } from 'choerodon-hap-ui/pro';
 
 function log(value) {
   console.log(value);

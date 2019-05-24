@@ -14,7 +14,7 @@ title:
 Form Header.
 
 ````jsx
-import { Form, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Select, SelectBox, Button } from 'choerodon-ui/pro';
+import { Form, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Select, SelectBox, Button } from 'choerodon-hap-ui/pro';
 
 const { Option } = Select;
 

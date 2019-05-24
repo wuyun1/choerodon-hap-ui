@@ -14,7 +14,7 @@ title:
 Implement a customized column search example via `filterDropdown`, `filterDropdownVisible` and `filterDropdownVisibleChange`.
 
 ````jsx
-import { Table, Input, Button, Icon } from 'choerodon-ui';
+import { Table, Input, Button, Icon } from 'choerodon-hap-ui';
 
 const data = [{
   key: '1',

@@ -14,7 +14,7 @@ title:
 ComboBox.
 
 ````jsx
-import { Select, Row, Col } from 'choerodon-ui/pro';
+import { Select, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleChange(value) {
   console.log('[combo]', value);

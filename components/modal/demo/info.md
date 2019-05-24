@@ -14,7 +14,7 @@ title:
 In the various types of information modal dialog, only one button to close dialog is provided.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui';
+import { Modal, Button } from 'choerodon-hap-ui';
 
 function info() {
   Modal.info({

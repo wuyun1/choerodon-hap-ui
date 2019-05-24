@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ````jsx
-import { Carousel } from 'choerodon-ui';
+import { Carousel } from 'choerodon-hap-ui';
 
 function onChange(a, b, c) {
   console.log(a, b, c);

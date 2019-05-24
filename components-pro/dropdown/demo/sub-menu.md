@@ -14,7 +14,7 @@ title:
 The menu has multiple levels.
 
 ````jsx
-import { Menu, Dropdown, Icon, Button } from 'choerodon-ui/pro';
+import { Menu, Dropdown, Icon, Button } from 'choerodon-hap-ui/pro';
 const SubMenu = Menu.SubMenu;
 
 const menu = (

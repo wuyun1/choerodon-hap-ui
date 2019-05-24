@@ -15,7 +15,7 @@ title:
 When dealing with long content, a fixed sider can provide a better user experience.
 
 ````jsx
-import { Layout, Menu, Icon } from 'choerodon-ui';
+import { Layout, Menu, Icon } from 'choerodon-hap-ui';
 const { Header, Content, Footer, Sider } = Layout;
 
 ReactDOM.render(

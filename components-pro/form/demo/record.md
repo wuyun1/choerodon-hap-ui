@@ -14,7 +14,7 @@ title:
 Bind Record.
 
 ````jsx
-import { DataSet, Form, TextField, NumberField, Password, EmailField, UrlField, DatePicker, Select, SelectBox, Lov, Button } from 'choerodon-ui/pro';
+import { DataSet, Form, TextField, NumberField, Password, EmailField, UrlField, DatePicker, Select, SelectBox, Lov, Button } from 'choerodon-hap-ui/pro';
 
 const { Option } = Select;
 

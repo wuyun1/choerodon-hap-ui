@@ -14,7 +14,7 @@ title:
 Tab can be slide to left or right(up or down), which is used for a lot of tabs.
 
 ````jsx
-import { Tabs, Radio } from 'choerodon-ui';
+import { Tabs, Radio } from 'choerodon-hap-ui';
 const TabPane = Tabs.TabPane;
 
 class SlidingTabsDemo extends React.Component {

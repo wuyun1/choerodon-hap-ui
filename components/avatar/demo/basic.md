@@ -14,7 +14,7 @@ title:
 Three sizes and two shapes are available.
 
 ````jsx
-import { Avatar } from 'choerodon-ui';
+import { Avatar } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

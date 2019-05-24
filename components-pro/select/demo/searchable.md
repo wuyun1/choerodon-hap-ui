@@ -14,7 +14,7 @@ title:
 Searchable.
 
 ````jsx
-import { DataSet, Select } from 'choerodon-ui/pro';
+import { DataSet, Select } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ record, name, value, oldValue }) {
   console.log('[searchable]', value, '[oldValue]', oldValue, `[record.get('${name}')]`, record.get(name));

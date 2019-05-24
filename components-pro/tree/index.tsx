@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { computed, observable, runInAction } from 'mobx';
 import noop from 'lodash/noop';
-import C7NTree, { TreeNode, TreeNodeEvent, TreeNodeExpandEvent, TreeProps as C7NTreeProps } from 'choerodon-ui/lib/tree';
+import C7NTree, { TreeNode, TreeNodeEvent, TreeNodeExpandEvent, TreeProps as C7NTreeProps } from 'choerodon-hap-ui/lib/tree';
 import DataSet from '../data-set/DataSet';
 import { getKey, getTreeNodes, NodeRenderer } from './util';
 import { BooleanValue, DataSetSelection } from '../data-set/enum';

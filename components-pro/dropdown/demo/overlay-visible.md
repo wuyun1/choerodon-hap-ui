@@ -14,7 +14,7 @@ title:
 The default is to close the menu when you click on menu items, this feature can be turned off.
 
 ````jsx
-import { Menu, Dropdown, Icon, Button } from 'choerodon-ui/pro';
+import { Menu, Dropdown, Icon, Button } from 'choerodon-hap-ui/pro';
 
 class OverlayVisible extends React.Component {
   state = {

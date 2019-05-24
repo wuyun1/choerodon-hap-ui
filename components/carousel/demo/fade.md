@@ -14,7 +14,7 @@ title:
 Slides use fade for transition.
 
 ````jsx
-import { Carousel } from 'choerodon-ui';
+import { Carousel } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Carousel effect="fade">

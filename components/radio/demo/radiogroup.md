@@ -14,7 +14,7 @@ title:
 A group of radio components.
 
 ```jsx
-import { Radio } from 'choerodon-ui';
+import { Radio } from 'choerodon-hap-ui';
 const RadioGroup = Radio.Group;
 
 class App extends React.Component {

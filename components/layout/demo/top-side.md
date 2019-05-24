@@ -14,7 +14,7 @@ title:
 Both the top navigation and the sidebar, commonly used in documentation site.
 
 ````jsx
-import { Layout, Menu, Breadcrumb, Icon } from 'choerodon-ui';
+import { Layout, Menu, Breadcrumb, Icon } from 'choerodon-hap-ui';
 const { SubMenu } = Menu;
 const { Header, Content, Footer, Sider } = Layout;
 

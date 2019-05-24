@@ -18,7 +18,7 @@ Set `filterBar` prop false to show dropdown menu filter.
 Use `filters` to generate filter menu in columns, `onFilter` to determine filtered result, and `filterMultiple` to indicate whether it's multiple or single selection.
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

@@ -14,7 +14,7 @@ title:
 Add border, title and footer for table.
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

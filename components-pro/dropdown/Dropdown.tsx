@@ -4,7 +4,7 @@ import Trigger from '../trigger/Trigger';
 import { Action } from '../trigger/enum';
 import { Placements } from './enum';
 import placements from './placements';
-import { getProPrefixCls } from 'choerodon-ui/lib/configure';
+import { getProPrefixCls } from 'choerodon-hap-ui/lib/configure';
 
 export interface DropDownProps {
   trigger?: Action[];

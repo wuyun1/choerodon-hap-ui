@@ -38,7 +38,7 @@ describe('Button', () => {
 
   it('should support link button', () => {
     const wrapper = mount(
-      <Button target="_blank" href="https://choerodon.github.io/choerodon-ui/">link button</Button>
+      <Button target="_blank" href="https://choerodon.github.io/choerodon-hap-ui/">link button</Button>
     );
     expect(wrapper.render()).toMatchSnapshot();
   });

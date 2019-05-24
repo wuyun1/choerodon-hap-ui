@@ -14,7 +14,7 @@ title:
 Basic pagination.
 
 ````jsx
-import { Pagination } from 'choerodon-ui';
+import { Pagination } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Pagination

@@ -14,7 +14,7 @@ title:
 `Collapse` is nested inside the `Collapse`.
 
 ````jsx
-import { Collapse } from 'choerodon-ui';
+import { Collapse } from 'choerodon-hap-ui';
 const Panel = Collapse.Panel;
 
 function callback(key) {

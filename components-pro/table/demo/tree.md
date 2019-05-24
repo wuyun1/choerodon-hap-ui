@@ -14,7 +14,7 @@ title:
 Tree Data.
 
 ````jsx
-import { DataSet, Table, Button, Icon } from 'choerodon-ui/pro';
+import { DataSet, Table, Button, Icon } from 'choerodon-hap-ui/pro';
 
 const { Column } = Table;
 

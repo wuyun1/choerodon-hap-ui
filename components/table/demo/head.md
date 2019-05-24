@@ -22,7 +22,7 @@ Use `sorter` to make a column sortable. `sorter` can be a function `function(a, 
 Uses `defaultSortOrder` to make a column sorted by default.
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

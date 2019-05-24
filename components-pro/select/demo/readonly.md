@@ -14,7 +14,7 @@ title:
 Read Only.
 
 ````jsx
-import { DataSet, Select, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, Select, Row, Col } from 'choerodon-hap-ui/pro';
 
 const { Option } = Select;
 

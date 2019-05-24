@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ````jsx
-import { Affix, Button } from 'choerodon-ui';
+import { Affix, Button } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

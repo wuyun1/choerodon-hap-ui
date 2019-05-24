@@ -14,7 +14,7 @@ title:
 Restrict input.
 
 ````jsx
-import { TextField } from 'choerodon-ui/pro';
+import { TextField } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <TextField placeholder="限制数字" restrict="0-9" />,

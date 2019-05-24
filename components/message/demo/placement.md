@@ -14,7 +14,7 @@ title:
 Message Placement
 
 ````jsx
-import { message, Button } from 'choerodon-ui';
+import { message, Button } from 'choerodon-hap-ui';
 
 const handleClick = (placement) => {
   message.destroy();

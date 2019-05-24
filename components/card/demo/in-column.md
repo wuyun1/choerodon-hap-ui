@@ -14,7 +14,7 @@ title:
 Cards usually cooperate with grid column layout in overview page.
 
 ````jsx
-import { Card, Col, Row } from 'choerodon-ui';
+import { Card, Col, Row } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div style={{ background: '#ECECEC', padding: '30px' }}>

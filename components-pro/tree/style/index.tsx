@@ -1,3 +1,3 @@
-import 'choerodon-ui/lib/tree/style';
+import 'choerodon-hap-ui/lib/tree/style';
 // style dependencies
-import 'choerodon-ui/lib/spin/style';
+import 'choerodon-hap-ui/lib/spin/style';

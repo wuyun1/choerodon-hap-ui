@@ -9,7 +9,7 @@ import { TextField, TextFieldProps } from '../text-field/TextField';
 import autobind from '../_util/autobind';
 import keepRunning from '../_util/keepRunning';
 import Icon from '../icon';
-import KeyCode from 'choerodon-ui/lib/_util/KeyCode';
+import KeyCode from 'choerodon-hap-ui/lib/_util/KeyCode';
 import { formatNumber, getNearStepValues, MAX_SAFE_INTEGER, plus } from './utils';
 import { ValidationMessages } from '../validator/Validator';
 import isEmpty from '../_util/isEmpty';

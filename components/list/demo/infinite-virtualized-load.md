@@ -18,7 +18,7 @@ An example of infinite list & virtualized loading using [react-virtualized](http
 `Virtualized` rendering is a technique to mount big sets of data. It reduces the amount of rendered DOM nodes by tracking and hiding whatever isn't currently visible.
 
 ````jsx
-import { List, message, Avatar, Spin } from 'choerodon-ui';
+import { List, message, Avatar, Spin } from 'choerodon-hap-ui';
 
 import reqwest from 'reqwest';
 
@@ -93,7 +93,7 @@ class VirtualizedExample extends React.Component {
       <List.Item key={key} style={style}>
         <List.Item.Meta
           avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-          title={<a href="https://choerodon.github.io/choerodon-ui/">{item.name.last}</a>}
+          title={<a href="https://choerodon.github.io/choerodon-hap-ui/">{item.name.last}</a>}
           description={item.email}
         />
         <div>Content</div>

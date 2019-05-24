@@ -14,7 +14,7 @@ title:
 Embedding content into `Spin` will alter it into loading state.
 
 ````jsx
-import { Spin, Switch, Alert } from 'choerodon-ui';
+import { Spin, Switch, Alert } from 'choerodon-hap-ui';
 
 class Card extends React.Component {
   state = { loading: false }

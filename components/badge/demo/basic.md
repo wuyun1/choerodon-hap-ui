@@ -14,7 +14,7 @@ title:
 Simplest Usage. Badge will be hidden when `count` is `0`, but we can use `showZero` to show it.
 
 ````jsx
-import { Badge } from 'choerodon-ui';
+import { Badge } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

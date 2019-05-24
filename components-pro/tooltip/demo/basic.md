@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ````jsx
-import { Tooltip } from 'choerodon-ui/pro';
+import { Tooltip } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <Tooltip title="prompt text" theme="light">

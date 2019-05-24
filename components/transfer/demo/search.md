@@ -14,7 +14,7 @@ title:
 Transfer with a search box.
 
 ````jsx
-import { Transfer } from 'choerodon-ui';
+import { Transfer } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

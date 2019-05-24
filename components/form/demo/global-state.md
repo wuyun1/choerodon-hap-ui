@@ -18,7 +18,7 @@ We can store form data into upper component or [Redux](https://github.com/reactj
 **Note:** You must wrap field data with `Form.createFormField` in `mapPropsToFields`.
 
 ````jsx
-import { Form, Input } from 'choerodon-ui';
+import { Form, Input } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 
 const CustomizedForm = Form.create({

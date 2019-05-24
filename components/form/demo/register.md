@@ -14,7 +14,7 @@ title:
 Fill in this form to create a new account for you.
 
 ````jsx
-import { Form, Input, Tooltip, Icon, Cascader, Row, Col, Checkbox, Button, AutoComplete, InputNumber } from 'choerodon-ui';
+import { Form, Input, Tooltip, Icon, Cascader, Row, Col, Checkbox, Button, AutoComplete, InputNumber } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 const AutoCompleteOption = AutoComplete.Option;
 

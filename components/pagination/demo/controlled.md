@@ -14,7 +14,7 @@ title:
 Controlled page number.
 
 ````jsx
-import { Pagination } from 'choerodon-ui';
+import { Pagination } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

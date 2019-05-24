@@ -14,7 +14,7 @@ title:
 Support set allow to clear star when click again.
 
 ````jsx
-import { Rate } from 'choerodon-ui';
+import { Rate } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

@@ -12,8 +12,8 @@ title: LocaleProvider
 `LocaleProvider` takes use of [context](https://facebook.github.io/react/docs/context.html), a feature of React, to accomplish global effectiveness by wrapping the app only once.
 
 ```jsx
-import { LocaleProvider } from 'choerodon-ui';
-import fr_FR from 'choerodon-ui/lib/locale-provider/fr_FR';
+import { LocaleProvider } from 'choerodon-hap-ui';
+import fr_FR from 'choerodon-hap-ui/lib/locale-provider/fr_FR';
 import 'moment/locale/fr';
 
 ...
@@ -21,12 +21,12 @@ import 'moment/locale/fr';
 return <LocaleProvider locale={fr_FR}><App /></LocaleProvider>;
 ```
 
-We provide some locale like English, Chinese, Russian, German, French and etc, all locale packages can be found in [here](https://github.com/choerodon/choerodon-ui/blob/master/components/locale-provider/).
+We provide some locale like English, Chinese, Russian, German, French and etc, all locale packages can be found in [here](https://github.com/choerodon/choerodon-hap-ui/blob/master/components/locale-provider/).
 
-Note: if you need to use choerodon-ui's UMD dist file, please use `choerodon-ui/dist/choerodon-ui-with-locales.js` and corresponding moment locale:
+Note: if you need to use choerodon-hap-ui's UMD dist file, please use `choerodon-hap-ui/dist/choerodon-hap-ui-with-locales.js` and corresponding moment locale:
 
 ```jsx
-const { LocaleProvider, locales } = window['choerodon-ui'];
+const { LocaleProvider, locales } = window['choerodon-hap-ui'];
 
 ...
 
@@ -35,7 +35,7 @@ return <LocaleProvider locale={locales.fr_FR}><App /></LocaleProvider>;
 
 ### Add a new language
 
-If you can't find your language, you are welcome to create a locale package based on [en_US](https://github.com/choerodon/choerodon-ui/blob/master/components/locale-provider/en_US.tsx) and send us a pull request.
+If you can't find your language, you are welcome to create a locale package based on [en_US](https://github.com/choerodon/choerodon-hap-ui/blob/master/components/locale-provider/en_US.tsx) and send us a pull request.
 
 ### Other localization needs
 
@@ -45,4 +45,4 @@ This component aims for localization of the built-in text, if you want to suppor
 
 | Property | Description | Type | Default |
 | -------- | ----------- | ---- | ------- |
-| locale | language package setting, you can find the packages in this path: `choerodon-ui/lib/locale-provider/` | object | - |
+| locale | language package setting, you can find the packages in this path: `choerodon-hap-ui/lib/locale-provider/` | object | - |

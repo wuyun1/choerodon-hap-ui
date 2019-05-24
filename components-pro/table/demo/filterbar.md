@@ -14,7 +14,7 @@ title:
 Filter Bar.
 
 ````jsx
-import { DataSet, Table, Button } from 'choerodon-ui/pro';
+import { DataSet, Table, Button } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   state = { show: false };

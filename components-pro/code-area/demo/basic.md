@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ````jsx
-import { CodeArea, Switch, Row, Col } from 'choerodon-ui/pro';
+import { CodeArea, Switch, Row, Col } from 'choerodon-hap-ui/pro';
 
 const style = { height: 30 };
 

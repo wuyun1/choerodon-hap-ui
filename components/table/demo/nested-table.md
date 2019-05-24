@@ -15,7 +15,7 @@ Showing more detailed info of every row.
 
 ````jsx
 
-import { Table, Badge, Menu, Dropdown, Icon } from 'choerodon-ui';
+import { Table, Badge, Menu, Dropdown, Icon } from 'choerodon-hap-ui';
 
 const menu = (
   <Menu>

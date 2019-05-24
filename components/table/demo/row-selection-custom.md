@@ -15,7 +15,7 @@ Use `rowSelection.selections` custom selections, default no select dropdown, sho
 
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

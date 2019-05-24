@@ -17,7 +17,7 @@ Demostration for validataion configuration for form controls which are not show 
 import {
   Form, Select, InputNumber, Switch, Radio,
   Slider, Button, Upload, Icon, Rate,
-} from 'choerodon-ui';
+} from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 const Option = Select.Option;
 const RadioButton = Radio.Button;

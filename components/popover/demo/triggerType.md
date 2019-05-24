@@ -14,7 +14,7 @@ title:
 Mouse to click, focus and move in.
 
 ````jsx
-import { Popover, Button } from 'choerodon-ui';
+import { Popover, Button } from 'choerodon-hap-ui';
 
 const content = (
   <div>

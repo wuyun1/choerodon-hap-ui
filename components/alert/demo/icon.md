@@ -14,7 +14,7 @@ title:
 Decent icon make information more clear and more friendly.
 
 ````jsx
-import { Alert } from 'choerodon-ui';
+import { Alert } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

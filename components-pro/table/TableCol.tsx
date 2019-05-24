@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classes from 'component-classes';
 import { ElementProps } from '../core/ViewComponent';
 import TableContext from './TableContext';
-import { pxToRem } from 'choerodon-ui/lib/_util/UnitConvertor';
+import { pxToRem } from 'choerodon-hap-ui/lib/_util/UnitConvertor';
 
 export interface TableColProps extends ElementProps {
   width?: number | string;

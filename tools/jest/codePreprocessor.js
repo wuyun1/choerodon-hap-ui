@@ -30,7 +30,7 @@ module.exports = {
     babelConfig.plugins.push([
       require.resolve('babel-plugin-import'),
       {
-        libraryName: 'choerodon-ui/pro',
+        libraryName: 'choerodon-hap-ui/pro',
         libraryDirectory: '../../../../components-pro',
       },
     ]);

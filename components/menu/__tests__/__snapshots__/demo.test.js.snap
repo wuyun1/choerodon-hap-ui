@@ -60,7 +60,7 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
     role="menuitem"
   >
     <a
-      href="https://choerodon.github.io/choerodon-ui/"
+      href="https://choerodon.github.io/choerodon-hap-ui/"
       rel="noopener noreferrer"
       target="_blank"
     >

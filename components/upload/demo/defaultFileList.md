@@ -14,7 +14,7 @@ title:
 Use `defaultFileList` for uploaded files when page init.
 
 ````jsx
-import { Upload, Button, Icon } from 'choerodon-ui';
+import { Upload, Button, Icon } from 'choerodon-hap-ui';
 
 const props = {
   action: '//jsonplaceholder.typicode.com/posts/',

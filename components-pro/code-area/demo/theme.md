@@ -14,7 +14,7 @@ title:
 Using different themes.
 
 ````jsx
-import { CodeArea, Switch, DataSet } from 'choerodon-ui/pro';
+import { CodeArea, Switch, DataSet } from 'choerodon-hap-ui/pro';
 // 这两个主题不是组件内置的主题，需要手动引入
 import 'codemirror/theme/material.css';
 import 'codemirror/theme/idea.css';

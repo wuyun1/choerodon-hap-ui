@@ -14,7 +14,7 @@ title:
 Controlled CheckBox
 
 ````jsx
-import { CheckBox } from 'choerodon-ui/pro';
+import { CheckBox } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

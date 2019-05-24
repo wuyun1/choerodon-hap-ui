@@ -14,7 +14,7 @@ title:
 The most basic dropdown menu.
 
 ````jsx
-import { Menu, Dropdown, Icon } from 'choerodon-ui';
+import { Menu, Dropdown, Icon } from 'choerodon-hap-ui';
 
 const menu = (
   <Menu>

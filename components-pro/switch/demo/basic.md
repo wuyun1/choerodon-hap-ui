@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ````jsx
-import { Switch } from 'choerodon-ui/pro';
+import { Switch } from 'choerodon-hap-ui/pro';
 
 function onChange(checked) {
   console.log(`switch to ${checked}`);

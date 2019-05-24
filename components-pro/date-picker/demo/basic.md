@@ -14,7 +14,7 @@ title:
 Date Picker.
 
 ````jsx
-import { DatePicker, MonthPicker, DateTimePicker, YearPicker, TimePicker, WeekPicker, Row, Col } from 'choerodon-ui/pro';
+import { DatePicker, MonthPicker, DateTimePicker, YearPicker, TimePicker, WeekPicker, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleChange(value, oldValue) {
   console.log('[datepicker]', value && value.format(), '[oldValue]', oldValue && oldValue.format());

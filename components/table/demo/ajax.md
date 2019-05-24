@@ -20,7 +20,7 @@ This example shows how to fetch and present data from remote server, and how to 
 **Note, this example use [Mock API](https://randomuser.me) that you can look up in Network Console.**
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 import reqwest from 'reqwest';
 
 const columns = [{

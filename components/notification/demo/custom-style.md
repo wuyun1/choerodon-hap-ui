@@ -14,7 +14,7 @@ title:
 The style and className are available to customize Notification.
 
 ````jsx
-import { Button, notification } from 'choerodon-ui';
+import { Button, notification } from 'choerodon-hap-ui';
 
 const openNotification = () => {
   notification.open({

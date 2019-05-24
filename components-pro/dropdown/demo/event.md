@@ -14,7 +14,7 @@ title:
 An event will be triggered when you click menu items, in which you can make different operations according to item's key.
 
 ````jsx
-import { Menu, Dropdown, Icon, message, Button } from 'choerodon-ui/pro';
+import { Menu, Dropdown, Icon, message, Button } from 'choerodon-hap-ui/pro';
 const onClick = function ({ key }) {
   message.info(`Click on item ${key}`);
 };

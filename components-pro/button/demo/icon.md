@@ -16,7 +16,7 @@ Buttons display mode, flat and raised, default raised.
 
 
 ````jsx
-import { Button, Icon } from 'choerodon-ui/pro';
+import { Button, Icon } from 'choerodon-hap-ui/pro';
 
 class App extends React.PureComponent {
   render() {

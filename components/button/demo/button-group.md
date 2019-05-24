@@ -18,7 +18,7 @@ Buttons can be grouped by placing multiple `Button` components into a `Button.Gr
 The `size` can be set to `large`, `small` or left unset resulting in a default size.
 
 ````jsx
-import { Button, Icon } from 'choerodon-ui';
+import { Button, Icon } from 'choerodon-hap-ui';
 const ButtonGroup = Button.Group;
 
 ReactDOM.render(

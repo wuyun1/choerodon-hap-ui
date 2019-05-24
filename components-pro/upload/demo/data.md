@@ -16,7 +16,7 @@ Append an extra `FormData` instance to a file upload request.
 Please checkout the 'Network' tab in the developer tool.
 
 ````jsx
-import { Upload } from 'choerodon-ui/pro';
+import { Upload } from 'choerodon-hap-ui/pro';
 
 const props = {
   headers: {

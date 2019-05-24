@@ -14,7 +14,7 @@ title:
 Classic mode. File selection dialog pops up when upload button is clicked.
 
 ````jsx
-import { Upload, message, Button, Icon } from 'choerodon-ui';
+import { Upload, message, Button, Icon } from 'choerodon-hap-ui';
 
 const props = {
   name: 'file',

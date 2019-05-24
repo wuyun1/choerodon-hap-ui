@@ -2,7 +2,7 @@ import React, { Children, isValidElement, ReactNode } from 'react';
 import { action, computed, observable, runInAction } from 'mobx';
 import isNil from 'lodash/isNil';
 import isPlainObject from 'lodash/isPlainObject';
-import measureScrollbar from 'choerodon-ui/lib/_util/measureScrollbar';
+import measureScrollbar from 'choerodon-hap-ui/lib/_util/measureScrollbar';
 import Column, { ColumnProps, columnWidth } from './Column';
 import DataSet from '../data-set/DataSet';
 import Record from '../data-set/Record';
@@ -13,7 +13,7 @@ import { ColumnAlign, ColumnLock, SelectionMode, TableEditMode, TableMode } from
 import { stopPropagation } from '../_util/EventManager';
 import { getColumnKey, getHeader } from './utils';
 import getReactNodeText from '../_util/getReactNodeText';
-import { getProPrefixCls } from 'choerodon-ui/lib/configure';
+import { getProPrefixCls } from 'choerodon-hap-ui/lib/configure';
 import ColumnGroups, { ColumnGroup } from './ColumnGroups';
 
 const SELECTION_KEY = '__selection-column__';

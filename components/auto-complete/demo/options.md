@@ -14,7 +14,7 @@ title:
 You could pass `AutoComplete.Option` as children of `AutoComplete`, instead of using `dataSource`。
 
 ````jsx
-import { AutoComplete } from 'choerodon-ui';
+import { AutoComplete } from 'choerodon-hap-ui';
 
 const Option = AutoComplete.Option;
 

@@ -14,7 +14,7 @@ title:
 Use `dataIndex` to specify the data source of the data index, the default data source to take the current index
 
 ````jsx
-import { DataSet, TextField, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, TextField, Row, Col } from 'choerodon-hap-ui/pro';
 
 const data = [
   { bind: 'data1' },

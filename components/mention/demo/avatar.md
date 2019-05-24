@@ -16,7 +16,7 @@ title:
 Customize suggestions.
 
 ````jsx
-import { Mention, Avatar } from 'choerodon-ui';
+import { Mention, Avatar } from 'choerodon-hap-ui';
 const Nav = Mention.Nav;
 
 const webFrameworks = [

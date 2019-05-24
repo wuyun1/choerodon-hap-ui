@@ -14,7 +14,7 @@ title:
 Controlled Radio
 
 ````jsx
-import { Radio } from 'choerodon-ui/pro';
+import { Radio } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

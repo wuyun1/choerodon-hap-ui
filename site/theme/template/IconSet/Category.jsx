@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { localeContext, message } from 'choerodon-ui/pro';
+import { localeContext, message } from 'choerodon-hap-ui/pro';
 import CopyableIcon from './CopyableIcon';
 
 export default class Category extends Component {

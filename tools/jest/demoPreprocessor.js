@@ -9,10 +9,10 @@ const pkg = require('../../package.json');
 
 const libDir = process.env.LIB_DIR || 'components';
 
-const libMatchPattern = /choerodon-ui\/lib\/.+/;
-const libPattern = /choerodon-ui\/lib/;
-const libProMatchPattern = /choerodon-ui\/pro\/lib\/.+/;
-const libProPattern = /choerodon-ui\/pro\/lib/;
+const libMatchPattern = /choerodon-hap-ui\/lib\/.+/;
+const libPattern = /choerodon-hap-ui\/lib/;
+const libProMatchPattern = /choerodon-hap-ui\/pro\/lib\/.+/;
+const libProPattern = /choerodon-hap-ui\/pro\/lib/;
 
 function getCode(tree) {
   let code;
@@ -86,11 +86,11 @@ module.exports = {
         require.resolve('babel-plugin-import'),
         [
           {
-            libraryName: 'choerodon-ui',
+            libraryName: 'choerodon-hap-ui',
             libraryDirectory: `../../../../${libDir}`,
           },
           {
-            libraryName: 'choerodon-ui/pro',
+            libraryName: 'choerodon-hap-ui/pro',
             libraryDirectory: `../../../../pro/${libDir}`,
           },
         ],

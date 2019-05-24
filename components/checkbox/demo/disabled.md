@@ -14,7 +14,7 @@ checkbox 不可用。
 Disabled checkbox.
 
 ````jsx
-import { Checkbox } from 'choerodon-ui';
+import { Checkbox } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

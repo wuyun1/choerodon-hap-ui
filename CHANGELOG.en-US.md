@@ -5,7 +5,7 @@ toc: false
 timeline: true
 ---
 
-`choerodon-ui` strictly follows [Semantic Versioning 2.0.0](http://semver.org/).
+`choerodon-hap-ui` strictly follows [Semantic Versioning 2.0.0](http://semver.org/).
 
 #### Release Schedule
 
@@ -48,8 +48,8 @@ timeline: true
 
 `2019-04-01`
 
-- 🌟 Incorporate the `choerodon-ui/pro` component library.
-- 🌟 The default ant prefix is changed to c7n. To use the ant prefix, please [Modify the topic variable @c7n-prefix] (https://choerodon.github.io/choerodon-ui/docs/react/customize-theme) And use [global configuration] (https://choerodon.github.io/choerodon-ui/components/configure).
+- 🌟 Incorporate the `choerodon-hap-ui/pro` component library.
+- 🌟 The default ant prefix is changed to c7n. To use the ant prefix, please [Modify the topic variable @c7n-prefix] (https://choerodon.github.io/choerodon-hap-ui/docs/react/customize-theme) And use [global configuration] (https://choerodon.github.io/choerodon-hap-ui/components/configure).
 
 ## 0.5.5
 
@@ -170,7 +170,7 @@ timeline: true
 ## 0.3.8
 
 `2018-08-31`
- 
+
 - 🌟 `Icon`: Added new icons.
 - 💄 `Input`: Adjust the style.
 - 💄 `FormItem`: Adjust the style.

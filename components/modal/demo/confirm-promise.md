@@ -15,7 +15,7 @@ To use `confirm()` to popup confirmation modal dialog. Let onCancel/onOk functio
 delay closing the dialog.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui';
+import { Modal, Button } from 'choerodon-hap-ui';
 const confirm = Modal.confirm;
 
 function showConfirm() {

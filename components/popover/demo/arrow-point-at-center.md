@@ -14,7 +14,7 @@ title:
 The arrow points to the center of the target element, which set `arrowPointAtCenter`.
 
 ````jsx
-import { Popover, Button } from 'choerodon-ui';
+import { Popover, Button } from 'choerodon-hap-ui';
 
 const text = <span>Title</span>;
 const content = (

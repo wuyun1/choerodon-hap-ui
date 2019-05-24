@@ -15,7 +15,7 @@ The tree structure can be populated using `treeData` property. This is a quick a
 
 
 ````jsx
-import { TreeSelect } from 'choerodon-ui';
+import { TreeSelect } from 'choerodon-hap-ui';
 
 const treeData = [{
   label: 'Node1',

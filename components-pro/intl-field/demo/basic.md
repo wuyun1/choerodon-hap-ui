@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ````jsx
-import { IntlField, Row, Col } from 'choerodon-ui/pro';
+import { IntlField, Row, Col } from 'choerodon-hap-ui/pro';
 
 function log(value) {
   console.log('[basic]', value);

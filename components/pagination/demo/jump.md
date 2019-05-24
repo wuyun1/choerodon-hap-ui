@@ -14,7 +14,7 @@ title:
 Jump to a page directly.
 
 ````jsx
-import { Pagination } from 'choerodon-ui';
+import { Pagination } from 'choerodon-hap-ui';
 
 function onChange(pageNumber) {
   console.log('Page: ', pageNumber);

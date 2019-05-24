@@ -15,7 +15,7 @@ Disabled part of dates and time by `disabledDate` and `disabledTime` respectivel
 
 ````jsx
 import moment from 'moment';
-import { DatePicker } from 'choerodon-ui';
+import { DatePicker } from 'choerodon-hap-ui';
 const { MonthPicker, RangePicker } = DatePicker;
 
 function range(start, end) {

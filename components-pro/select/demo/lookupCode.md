@@ -14,7 +14,7 @@ title:
 Lookup Code
 
 ````jsx
-import { DataSet, Select, Button, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, Select, Button, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ record, name, value, oldValue }) {
   console.log('[dataset newValue]', value, '[oldValue]', oldValue, `[record.get('${name}')]`, record.get(name));

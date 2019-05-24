@@ -14,7 +14,7 @@ title:
 When the timeline is incomplete and ongoing, put a ghost node at last. set `pending={true}` or `pending={a React Element}`. Used in ascend chronological order. When `pending` is not false, set `pendingDot={a React Element}` to replace the default pending dot.
 
 ````jsx
-import { Timeline } from 'choerodon-ui';
+import { Timeline } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Timeline pending="Recording...">

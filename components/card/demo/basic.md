@@ -14,7 +14,7 @@ title:
 A basic card containing a title, content and an extra corner content.
 
 ````jsx
-import { Card } from 'choerodon-ui';
+import { Card } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Card title="Card title" extra={<a href="#">More</a>} style={{ width: 300 }}>

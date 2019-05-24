@@ -12,7 +12,7 @@ import Field, { Fields } from '../data-set/Field';
 import { ButtonColor, ButtonType, FuncType } from '../button/enum';
 import { getEditorByField } from './utils';
 import Modal from '../modal';
-import { pxToRem } from 'choerodon-ui/lib/_util/UnitConvertor';
+import { pxToRem } from 'choerodon-hap-ui/lib/_util/UnitConvertor';
 import Form from '../form/Form';
 import Icon from '../icon';
 import TableContext from './TableContext';

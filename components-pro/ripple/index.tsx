@@ -1,3 +1,3 @@
-import Ripple from 'choerodon-ui/lib/ripple';
+import Ripple from 'choerodon-hap-ui/lib/ripple';
 
 export default Ripple;

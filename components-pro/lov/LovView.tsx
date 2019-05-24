@@ -7,7 +7,7 @@ import { DataSetSelection } from '../data-set/enum';
 import { action } from 'mobx';
 import { LovConfig } from './Lov';
 import { ColumnProps } from '../table/Column';
-import KeyCode from 'choerodon-ui/lib/_util/KeyCode';
+import KeyCode from 'choerodon-hap-ui/lib/_util/KeyCode';
 
 export interface LovViewProps {
   dataSet: DataSet;

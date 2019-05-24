@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ````jsx
-import { TextField, Row, Col } from 'choerodon-ui/pro';
+import { TextField, Row, Col } from 'choerodon-hap-ui/pro';
 
 function log(value) {
   console.log('[basic]', value);

@@ -14,7 +14,7 @@ title:
 Basic timeline.
 
 ````jsx
-import { Timeline } from 'choerodon-ui';
+import { Timeline } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Timeline>

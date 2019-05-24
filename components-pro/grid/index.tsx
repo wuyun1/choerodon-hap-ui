@@ -1,5 +1,5 @@
-import Row from 'choerodon-ui/lib/grid/row';
-import Col from 'choerodon-ui/lib/grid/col';
+import Row from 'choerodon-hap-ui/lib/grid/row';
+import Col from 'choerodon-hap-ui/lib/grid/col';
 
 export {
   Row,

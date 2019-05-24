@@ -1,3 +1,3 @@
-import Animate from 'choerodon-ui/lib/animate';
+import Animate from 'choerodon-hap-ui/lib/animate';
 
 export default Animate;

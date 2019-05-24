@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { TreeNode } from 'choerodon-ui/lib/tree';
+import { TreeNode } from 'choerodon-hap-ui/lib/tree';
 import Record from '../data-set/Record';
 import DataSet from '../data-set/DataSet';
 

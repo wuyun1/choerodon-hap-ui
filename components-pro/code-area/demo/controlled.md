@@ -14,7 +14,7 @@ title:
 Controlled Code Area.
 
 ````jsx
-import { CodeArea } from 'choerodon-ui/pro';
+import { CodeArea } from 'choerodon-hap-ui/pro';
 
 const style = { height: 30 };
 

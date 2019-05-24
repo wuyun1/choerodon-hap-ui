@@ -14,7 +14,7 @@ title:
 The simplest usage for short messages.
 
 ````jsx
-import { Alert } from 'choerodon-ui';
+import { Alert } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Alert message="Success Text" type="success" />,

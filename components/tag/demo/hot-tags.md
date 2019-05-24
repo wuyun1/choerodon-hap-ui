@@ -14,7 +14,7 @@ title:
 Select your favourite topics.
 
 ````jsx
-import { Tag } from 'choerodon-ui';
+import { Tag } from 'choerodon-hap-ui';
 const CheckableTag = Tag.CheckableTag;
 
 const tagsFromServer = ['Movies', 'Books', 'Music', 'Sports'];

@@ -14,7 +14,7 @@ title:
 Call `Upload`'s `startUpload` method directly. You can use `showUploadBtn={false}` to hide the original upload button.
 
 ````jsx
-import { Upload, Button, Form, Output } from 'choerodon-ui/pro';
+import { Upload, Button, Form, Output } from 'choerodon-hap-ui/pro';
 
 const props = {
   headers: {

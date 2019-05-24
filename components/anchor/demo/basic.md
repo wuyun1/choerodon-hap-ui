@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```jsx
-import { Anchor } from 'choerodon-ui';
+import { Anchor } from 'choerodon-hap-ui';
 const { Link } = Anchor;
 
 ReactDOM.render(

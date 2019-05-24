@@ -14,7 +14,7 @@ title:
 Multiple selection usage.
 
 ````jsx
-import { TreeSelect } from 'choerodon-ui';
+import { TreeSelect } from 'choerodon-hap-ui';
 const TreeNode = TreeSelect.TreeNode;
 
 class Demo extends React.Component {

@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import { enquireScreen } from 'enquire-js';
 import { addLocaleData, IntlProvider } from 'react-intl';
-import { LocaleProvider } from 'choerodon-ui';
-import { localeContext, ModalContainer } from 'choerodon-ui/pro';
+import { LocaleProvider } from 'choerodon-hap-ui';
+import { localeContext, ModalContainer } from 'choerodon-hap-ui/pro';
 import moment from 'moment';
 import { configure } from 'mobx';
 import Header from './Header';
@@ -22,7 +22,7 @@ if (typeof window !== 'undefined') {
   // Expose to iframe
   window.react = React;
   window['react-dom'] = ReactDOM;
-  window['choerodon-ui'] = require('choerodon-ui');
+  window['choerodon-hap-ui'] = require('choerodon-hap-ui');
   /* eslint-enable global-require */
 }
 

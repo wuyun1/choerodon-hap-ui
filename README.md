@@ -20,20 +20,20 @@ An enterprise-class UI design language and React-based implementation.
 ## Install
 
 ```bash
-npm install choerodon-ui --save
+npm install choerodon-hap-ui --save
 ```
 
 ## Usage
 
 ```jsx
-import { DatePicker } from 'choerodon-ui';
+import { DatePicker } from 'choerodon-hap-ui';
 ReactDOM.render(<DatePicker />, mountNode);
 ```
 
 And import style manually:
 
 ```jsx
-import 'choerodon-ui/dist/choerodon-ui.css';  // or 'choerodon-ui/dist/choerodon-ui.less'
+import 'choerodon-hap-ui/dist/choerodon-hap-ui.css';  // or 'choerodon-hap-ui/dist/choerodon-hap-ui.less'
 ```
 
 Or [import components on demand](http://ant-design.gitee.io/docs/react/getting-started#Import-on-Demand)
@@ -49,19 +49,19 @@ See [i18n](http://ant-design.gitee.io/docs/react/i18n).
 
 ## Links
 
-- [Home page](https://choerodon.github.io/choerodon-ui/index-cn/)
-- [Components](https://choerodon.github.io/choerodon-ui/docs/react/introduce)
+- [Home page](https://choerodon.github.io/choerodon-hap-ui/index-cn/)
+- [Components](https://choerodon.github.io/choerodon-hap-ui/docs/react/introduce)
 - [Change Log](CHANGELOG.en-US.md)
 - [Scaffold Market](http://scaffold.ant.design)
 - [Ant Design](http://ant-design.gitee.io)
 - [rc-components](http://react-component.github.io/)
-- [Customize Theme](https://choerodon.github.io/choerodon-ui/customize-theme)
+- [Customize Theme](https://choerodon.github.io/choerodon-hap-ui/customize-theme)
 
 ## Local Development
 
 ```bash
-$ git clone https://github.com/choerodon/choerodon-ui.git
-$ cd choerodon-ui
+$ git clone https://github.com/choerodon/choerodon-hap-ui.git
+$ cd choerodon-hap-ui
 $ npm install
 $ npm start
 ```

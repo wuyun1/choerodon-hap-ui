@@ -14,7 +14,7 @@ title:
 Icon Select.
 
 ````jsx
-import { IconSelect } from 'choerodon-ui';
+import { IconSelect } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <IconSelect showAll style={{ width: '300px' }} defaultValue={['root']} />,

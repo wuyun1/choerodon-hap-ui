@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { observer } from 'mobx-react';
-import KeyCode from 'choerodon-ui/lib/_util/KeyCode';
+import KeyCode from 'choerodon-hap-ui/lib/_util/KeyCode';
 import { CheckBox, CheckBoxProps } from '../check-box/CheckBox';
 import autobind from '../_util/autobind';
 

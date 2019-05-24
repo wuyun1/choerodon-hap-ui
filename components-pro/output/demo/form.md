@@ -14,7 +14,7 @@ title:
 Use with other `FormField`s in a `Form` with `DataSet`.
 
 ````jsx
-import { DataSet, Form, Output, EmailField, NumberField } from 'choerodon-ui/pro';
+import { DataSet, Form, Output, EmailField, NumberField } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   ds = new DataSet({

@@ -14,7 +14,7 @@ title:
 Controlled NumberField
 
 ````jsx
-import { NumberField } from 'choerodon-ui/pro';
+import { NumberField } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

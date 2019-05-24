@@ -17,7 +17,7 @@ Controlled
 
 ````jsx
 
-import { Progress } from 'choerodon-ui/pro';
+import { Progress } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

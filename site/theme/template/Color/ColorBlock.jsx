@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CopyToClipboard from 'react-copy-to-clipboard';
-import { message } from 'choerodon-ui';
+import { message } from 'choerodon-hap-ui';
 
 export default class ColorBlock extends Component {
   getTextStyle() {

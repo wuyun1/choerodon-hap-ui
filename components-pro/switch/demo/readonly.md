@@ -14,7 +14,7 @@ title:
 Read Only.
 
 ````jsx
-import { Switch, DataSet } from 'choerodon-ui/pro';
+import { Switch, DataSet } from 'choerodon-hap-ui/pro';
 
 const data = [{ rd: 'C' }];
 

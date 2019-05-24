@@ -14,7 +14,7 @@ title:
 The count will be animated as it changes.
 
 ````jsx
-import { Badge, Button, Icon, Switch } from 'choerodon-ui';
+import { Badge, Button, Icon, Switch } from 'choerodon-hap-ui';
 const ButtonGroup = Button.Group;
 
 class Demo extends React.Component {

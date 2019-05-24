@@ -15,7 +15,7 @@ You can customize the style of the button, just note the size limit: no more tha
 
 
 ````jsx
-import { BackTop } from 'choerodon-ui';
+import { BackTop } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

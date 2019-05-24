@@ -14,7 +14,7 @@ title:
 There are three sizes available: large, medium, and small. It can coordinate with input box.
 
 ```jsx
-import { Radio } from 'choerodon-ui';
+import { Radio } from 'choerodon-hap-ui';
 const RadioButton = Radio.Button;
 const RadioGroup = Radio.Group;
 

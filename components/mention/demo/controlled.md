@@ -14,7 +14,7 @@ title:
 Controlled mode, for example, to work with `Form`.
 
 ````jsx
-import { Mention, Form, Button } from 'choerodon-ui';
+import { Mention, Form, Button } from 'choerodon-hap-ui';
 const { toContentState, getMentions } = Mention;
 const FormItem = Form.Item;
 

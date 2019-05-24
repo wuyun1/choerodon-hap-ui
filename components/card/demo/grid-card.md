@@ -14,7 +14,7 @@ title:
 Grid style card content.
 
 ````jsx
-import { Card } from 'choerodon-ui';
+import { Card } from 'choerodon-hap-ui';
 
 const gridStyle = {
   width: '25%',

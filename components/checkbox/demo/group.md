@@ -14,7 +14,7 @@ title:
 Generate a group of checkboxes from an array.
 
 ````jsx
-import { Checkbox } from 'choerodon-ui';
+import { Checkbox } from 'choerodon-hap-ui';
 const CheckboxGroup = Checkbox.Group;
 
 function onChange(checkedValues) {

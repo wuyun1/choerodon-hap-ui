@@ -14,7 +14,7 @@ title:
 Support 6 placements.
 
 ````jsx
-import { Menu, Dropdown, Button } from 'choerodon-ui/pro';
+import { Menu, Dropdown, Button } from 'choerodon-hap-ui/pro';
 
 const menu = (
   <Menu>

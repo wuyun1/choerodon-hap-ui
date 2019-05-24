@@ -14,7 +14,7 @@ title:
 `size="small"` represents a small sized switch.
 
 ````jsx
-import { Switch } from 'choerodon-ui';
+import { Switch } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

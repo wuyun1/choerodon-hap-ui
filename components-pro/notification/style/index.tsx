@@ -1,1 +1,1 @@
-import 'choerodon-ui/lib/notification/style';
+import 'choerodon-hap-ui/lib/notification/style';

@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ````jsx
-import { Mention } from 'choerodon-ui';
+import { Mention } from 'choerodon-hap-ui';
 const { toString, toContentState } = Mention;
 
 function onChange(contentState) {

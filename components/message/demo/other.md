@@ -14,7 +14,7 @@ title:
 Messages of success, error and warning types.
 
 ````jsx
-import { message, Button } from 'choerodon-ui';
+import { message, Button } from 'choerodon-hap-ui';
 
 message.config({
   top: '24px',

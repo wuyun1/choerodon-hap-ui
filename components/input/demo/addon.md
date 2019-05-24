@@ -14,7 +14,7 @@ title:
 Using pre & post tabs example.
 
 ````jsx
-import { Input, Select, Icon } from 'choerodon-ui';
+import { Input, Select, Icon } from 'choerodon-hap-ui';
 const Option = Select.Option;
 
 const selectBefore = (

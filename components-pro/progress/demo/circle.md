@@ -16,7 +16,7 @@ Circle Progress.
 
 
 ````jsx
-import { Progress } from 'choerodon-ui/pro';
+import { Progress } from 'choerodon-hap-ui/pro';
 
 function format() {
   return 'Done';

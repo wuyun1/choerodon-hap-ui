@@ -14,7 +14,7 @@ title:
 A disabled state of the `DatePicker`.
 
 ````jsx
-import { DatePicker } from 'choerodon-ui';
+import { DatePicker } from 'choerodon-hap-ui';
 import moment from 'moment';
 const { MonthPicker, RangePicker } = DatePicker;
 

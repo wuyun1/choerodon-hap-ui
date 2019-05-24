@@ -14,7 +14,7 @@ title:
 basic controlled example
 
 ````jsx
-import { Tree } from 'choerodon-ui';
+import { Tree } from 'choerodon-hap-ui';
 
 const TreeNode = Tree.TreeNode;
 

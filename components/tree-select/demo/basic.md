@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ````jsx
-import { TreeSelect } from 'choerodon-ui';
+import { TreeSelect } from 'choerodon-hap-ui';
 const TreeNode = TreeSelect.TreeNode;
 
 class Demo extends React.Component {

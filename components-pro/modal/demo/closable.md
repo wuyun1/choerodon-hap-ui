@@ -14,7 +14,7 @@ title:
 No Close Button.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui/pro';
+import { Modal, Button } from 'choerodon-hap-ui/pro';
 
 const modalKey = Modal.key();
 

@@ -18,7 +18,7 @@ Control a Tooltip's theme color via setting `theme` property.
 When dealing with red error message, light theme is recommended.
 
 ````jsx
-import { Tooltip, Button, Icon } from 'choerodon-ui/pro';
+import { Tooltip, Button, Icon } from 'choerodon-hap-ui/pro';
 
 class Demo extends React.Component {
   state = {

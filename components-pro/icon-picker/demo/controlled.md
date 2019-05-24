@@ -14,7 +14,7 @@ title:
 Controlled Icon Picker
 
 ````jsx
-import { IconPicker } from 'choerodon-ui/pro';
+import { IconPicker } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

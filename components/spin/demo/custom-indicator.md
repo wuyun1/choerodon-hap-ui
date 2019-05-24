@@ -14,7 +14,7 @@ title:
 Use custom loading indicator.
 
 ````jsx
-import { Spin } from 'choerodon-ui';
+import { Spin } from 'choerodon-hap-ui';
 
 const c7nIcon = (
   <span className="custom-spin-dot">

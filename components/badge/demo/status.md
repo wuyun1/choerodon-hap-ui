@@ -14,7 +14,7 @@ title:
 Standalone badge with status.
 
 ````jsx
-import { Badge } from 'choerodon-ui';
+import { Badge } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

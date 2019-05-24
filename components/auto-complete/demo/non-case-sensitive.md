@@ -14,7 +14,7 @@ title:
 A non-case-sensitive AutoComplete
 
 ````jsx
-import { AutoComplete } from 'choerodon-ui';
+import { AutoComplete } from 'choerodon-hap-ui';
 
 const dataSource = ['Burns Bay Road', 'Downing Street', 'Wall Street'];
 

@@ -14,7 +14,7 @@ title:
 The basic example.
 
 ````jsx
-import { Popconfirm, message } from 'choerodon-ui';
+import { Popconfirm, message } from 'choerodon-hap-ui';
 
 function confirm(e) {
   console.log(e);

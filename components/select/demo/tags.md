@@ -14,7 +14,7 @@ tags select，随意输入的内容（scroll the menu）
 Select with tags, transform input to tag (scroll the menu)
 
 ````jsx
-import { Select } from 'choerodon-ui';
+import { Select } from 'choerodon-hap-ui';
 import classNames from 'classnames';
 
 const Option = Select.Option;

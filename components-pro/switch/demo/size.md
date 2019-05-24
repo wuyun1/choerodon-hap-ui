@@ -14,7 +14,7 @@ title:
 `size="large"` represents a large sized switch.`size="small"` represents a small sized switch.
 
 ````jsx
-import { Switch } from 'choerodon-ui/pro';
+import { Switch } from 'choerodon-hap-ui/pro';
 
 ReactDOM.render(
   <div>

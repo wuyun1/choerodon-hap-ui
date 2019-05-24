@@ -15,7 +15,7 @@ title:
 Display Alert as a banner at top of page.
 
 ````jsx
-import { Alert } from 'choerodon-ui';
+import { Alert } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

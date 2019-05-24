@@ -14,7 +14,7 @@ title:
 Multiple selection via property `multiple`.
 
 ````jsx
-import { DataSet, SelectBox, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, SelectBox, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleChange(value, oldValue) {
   console.log('[multiple]', value, '[oldValue]', oldValue);

@@ -14,7 +14,7 @@ title:
 By setting like this: `<Steps size="small">`, you can get a mini version.
 
 ````jsx
-import { Steps } from 'choerodon-ui';
+import { Steps } from 'choerodon-hap-ui';
 const Step = Steps.Step;
 
 ReactDOM.render(

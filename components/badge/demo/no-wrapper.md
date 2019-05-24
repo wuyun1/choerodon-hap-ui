@@ -16,7 +16,7 @@ title:
 Used in standalone when children is empty.
 
 ````jsx
-import { Badge } from 'choerodon-ui';
+import { Badge } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

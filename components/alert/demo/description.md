@@ -14,7 +14,7 @@ title:
 Additional description for alert message.
 
 ````jsx
-import { Alert } from 'choerodon-ui';
+import { Alert } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

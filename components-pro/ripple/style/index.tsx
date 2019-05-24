@@ -1,1 +1,1 @@
-import 'choerodon-ui/lib/ripple/style';
+import 'choerodon-hap-ui/lib/ripple/style';

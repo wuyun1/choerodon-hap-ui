@@ -1,1 +1,1 @@
-import 'choerodon-ui/lib/tabs/style';
+import 'choerodon-hap-ui/lib/tabs/style';

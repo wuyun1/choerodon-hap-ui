@@ -14,7 +14,7 @@ title:
 Multiple selection, selecting from existing items (scroll the menu).
 
 ````jsx
-import { Select, Button } from 'choerodon-ui';
+import { Select, Button } from 'choerodon-hap-ui';
 const Option = Select.Option;
 
 const children = [];

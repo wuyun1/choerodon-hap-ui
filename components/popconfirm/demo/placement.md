@@ -14,7 +14,7 @@ title:
 There are 12 `placement` options available. Use `arrowPointAtCenter` if you want arrow point at the center of target.
 
 ````jsx
-import { Popconfirm, message, Button } from 'choerodon-ui';
+import { Popconfirm, message, Button } from 'choerodon-hap-ui';
 
 const text = 'Are you sure delete this task?';
 

@@ -14,7 +14,7 @@ title:
 Click `TimePicker`, and then we could select or input a time in panel.
 
 ````jsx
-import { TimePicker } from 'choerodon-ui';
+import { TimePicker } from 'choerodon-hap-ui';
 import moment from 'moment';
 
 function onChange(time, timeString) {

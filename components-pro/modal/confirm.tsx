@@ -1,6 +1,6 @@
 import React from 'react';
 import noop from 'lodash/noop';
-import { getProPrefixCls } from 'choerodon-ui/lib/configure';
+import { getProPrefixCls } from 'choerodon-hap-ui/lib/configure';
 import { ModalProps } from './Modal';
 import { getKey, open } from '../modal-container/ModalContainer';
 import Icon from '../icon';

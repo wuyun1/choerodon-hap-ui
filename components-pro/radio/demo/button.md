@@ -14,7 +14,7 @@ title:
 Button display.
 
 ````jsx
-import { Radio } from 'choerodon-ui/pro';
+import { Radio } from 'choerodon-hap-ui/pro';
 
 function handleChange(value, oldValue) {
   console.log('[button]', value, '[oldValue]', oldValue);

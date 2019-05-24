@@ -15,7 +15,7 @@ If uploaded file is a picture, the thumbnail can be shown. `IE8/9` do not suppor
 
 
 ````jsx
-import { Upload, Button, Icon } from 'choerodon-ui';
+import { Upload, Button, Icon } from 'choerodon-hap-ui';
 
 const fileList = [{
   uid: -1,

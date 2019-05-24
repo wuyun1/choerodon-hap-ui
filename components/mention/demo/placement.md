@@ -14,7 +14,7 @@ title:
 Change the suggestions placement.
 
 ````jsx
-import { Mention } from 'choerodon-ui';
+import { Mention } from 'choerodon-hap-ui';
 const { toString } = Mention;
 
 function onChange(contentState) {

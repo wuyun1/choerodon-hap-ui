@@ -15,7 +15,7 @@ Controlled
 
 ````jsx
 
-import { Range, TextField } from 'choerodon-ui/pro';
+import { Range, TextField } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   constructor(props) {

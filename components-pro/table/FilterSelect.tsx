@@ -16,14 +16,14 @@ import Record from '../data-set/Record';
 import autobind from '../_util/autobind';
 import { FormFieldProps, RenderProps } from '../field/FormField';
 import measureTextWidth from '../_util/measureTextWidth';
-import { pxToRem } from 'choerodon-ui/lib/_util/UnitConvertor';
+import { pxToRem } from 'choerodon-hap-ui/lib/_util/UnitConvertor';
 import { getEditorByField } from './utils';
 import Select, { SelectProps } from '../select/Select';
 import processFieldValue from '../field/utils';
 import LookupCodeStore from '../stores/LookupCodeStore';
 import { isSameLike } from '../data-set/utils';
 import Option, { OptionProps } from '../option/Option';
-import KeyCode from 'choerodon-ui/lib/_util/KeyCode';
+import KeyCode from 'choerodon-hap-ui/lib/_util/KeyCode';
 
 export interface FilterSelectProps extends TextFieldProps {
   paramName?: string;

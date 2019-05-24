@@ -18,7 +18,7 @@ Render radios by configuring `options`.
 > support after `2.9.0`.
 
 ```jsx
-import { Radio } from 'choerodon-ui';
+import { Radio } from 'choerodon-hap-ui';
 const RadioGroup = Radio.Group;
 
 const plainOptions = ['Apple', 'Pear', 'Orange'];

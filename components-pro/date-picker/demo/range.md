@@ -14,7 +14,7 @@ title:
 Specify an optional range.
 
 ````jsx
-import { DataSet, DatePicker, MonthPicker, YearPicker, DateTimePicker, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, DatePicker, MonthPicker, YearPicker, DateTimePicker, Row, Col } from 'choerodon-hap-ui/pro';
 import moment from 'moment';
 
 function filterDate(currentDate) {

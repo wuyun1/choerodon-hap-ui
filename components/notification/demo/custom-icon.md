@@ -14,7 +14,7 @@ title:
 The icon can be customized to any react node.
 
 ````jsx
-import { Button, notification, Icon } from 'choerodon-ui';
+import { Button, notification, Icon } from 'choerodon-hap-ui';
 
 const openNotification = () => {
   notification.open({

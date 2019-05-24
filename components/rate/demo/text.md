@@ -14,7 +14,7 @@ title:
 Add copywriting in rate components.
 
 ````jsx
-import { Rate } from 'choerodon-ui';
+import { Rate } from 'choerodon-hap-ui';
 
 class Rater extends React.Component {
   state = {

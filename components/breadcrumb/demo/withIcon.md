@@ -14,7 +14,7 @@ title:
 The icon should be placed in front of the text.
 
 ````jsx
-import { Breadcrumb, Icon } from 'choerodon-ui';
+import { Breadcrumb, Icon } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Breadcrumb>

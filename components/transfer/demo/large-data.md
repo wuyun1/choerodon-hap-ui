@@ -15,7 +15,7 @@ title:
 2000 items.
 
 ````jsx
-import { Transfer } from 'choerodon-ui';
+import { Transfer } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

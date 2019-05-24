@@ -1,12 +1,12 @@
 import isNil from 'lodash/isNil';
 import { action, observable, ObservableMap, runInAction } from 'mobx';
-import warning from 'choerodon-ui/lib/_util/warning';
+import warning from 'choerodon-hap-ui/lib/_util/warning';
 import DataSet, { DataSetProps } from '../data-set/DataSet';
 import axios from '../axios';
 import { FieldProps } from '../data-set/Field';
 import { FieldType } from '../data-set/enum';
 import { LovFieldType } from '../lov/enum';
-import { getConfig } from 'choerodon-ui/lib/configure';
+import { getConfig } from 'choerodon-hap-ui/lib/configure';
 import { LovConfig, LovConfigItem } from '../lov/Lov';
 
 function getFieldType(conditionFieldType?: FieldType | LovFieldType): FieldType {

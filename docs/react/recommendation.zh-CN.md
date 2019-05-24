@@ -3,7 +3,7 @@ order: 7
 title: 社区精选组件
 ---
 
-`choerodon-ui` 是 Choerodon 的UI组件库，同时还包含了企业级组件库 `choerodon-ui/pro`。为了尽量不重复造轮子，我们推荐使用以下社区已有的优秀实现，与 choerodon-ui 形成互补：
+`choerodon-hap-ui` 是 Choerodon 的UI组件库，同时还包含了企业级组件库 `choerodon-hap-ui/pro`。为了尽量不重复造轮子，我们推荐使用以下社区已有的优秀实现，与 choerodon-hap-ui 形成互补：
 
 类型 | 推荐组件
 ----|--------

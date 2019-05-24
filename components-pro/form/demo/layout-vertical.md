@@ -14,7 +14,7 @@ title:
 Vertical Layout.
 
 ````jsx
-import { Form, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Select, SelectBox, CodeArea, Button } from 'choerodon-ui/pro';
+import { Form, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Select, SelectBox, CodeArea, Button } from 'choerodon-hap-ui/pro';
 
 const { Option } = Select;
 

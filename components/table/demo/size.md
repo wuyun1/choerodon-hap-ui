@@ -14,7 +14,7 @@ title:
 Three compacted table size: `default` `large` and `small`, `small` size is used in Modal only.
 
 ````jsx
-import { Table } from 'choerodon-ui';
+import { Table } from 'choerodon-hap-ui';
 
 const columns = [{
   title: 'Name',

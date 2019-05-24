@@ -11,7 +11,7 @@ title: Configure
 ## 使用
 
 ```jsx
-import { configure } from 'choerodon-ui';
+import { configure } from 'choerodon-hap-ui';
 
 configure({ prefixCls: 'ant' });
 ```

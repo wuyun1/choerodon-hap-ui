@@ -46,7 +46,7 @@ title: Modal
 使用Modal前，需要在页面Root内插入ModalContainer。如果路由切换时要清空所有Modal，需要在ModalContiner传入location，如下所示。
 
 ```jsx harmony
-import { ModalContainer } from 'choerodon-ui/pro';
+import { ModalContainer } from 'choerodon-hap-ui/pro';
 import { withRouter } from 'react-router';
 
 @withRouter

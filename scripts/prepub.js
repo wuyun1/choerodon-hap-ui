@@ -29,9 +29,9 @@ if (fs.existsSync(path.join(__dirname, '../lib'))) {
 
 if (fs.existsSync(path.join(__dirname, '../dist'))) {
   const distLess = function distLess(isPro) {
-    // Build a entry less file to dist/choerodon-ui.less
+    // Build a entry less file to dist/choerodon-hap-ui.less
     const dir = isPro ? 'components-pro' : 'components';
-    const less = isPro ? 'choerodon-ui-pro.less' : 'choerodon-ui.less';
+    const less = isPro ? 'choerodon-hap-ui-pro.less' : 'choerodon-hap-ui.less';
     const relativePath = isPro ? '../../pro/lib/' : '../';
     const componentsPath = path.join(process.cwd(), dir);
     let componentsLessContent = '';
@@ -45,7 +45,7 @@ if (fs.existsSync(path.join(__dirname, '../dist'))) {
       });
       fs.writeFileSync(path.join(process.cwd(), 'lib', 'style', `${dir}.less`), componentsLessContent);
 
-      // Build less entry file: dist/choerodon-ui.less
+      // Build less entry file: dist/choerodon-hap-ui.less
       fs.writeFileSync(
         path.join(process.cwd(), 'dist', less),
         `@import "../lib/style/index.less";\n@import "../lib/style/${dir}.less";`,

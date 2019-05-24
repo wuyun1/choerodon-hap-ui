@@ -35,7 +35,7 @@ exports[`renders ./components/list/demo/basic.md correctly 1`] = `
                 class="c7n-list-item-meta-title"
               >
                 <a
-                  href="https://choerodon.github.io/choerodon-ui/"
+                  href="https://choerodon.github.io/choerodon-hap-ui/"
                 >
                   Ant Design Title 1
                 </a>
@@ -72,7 +72,7 @@ exports[`renders ./components/list/demo/basic.md correctly 1`] = `
                 class="c7n-list-item-meta-title"
               >
                 <a
-                  href="https://choerodon.github.io/choerodon-ui/"
+                  href="https://choerodon.github.io/choerodon-hap-ui/"
                 >
                   Ant Design Title 2
                 </a>
@@ -109,7 +109,7 @@ exports[`renders ./components/list/demo/basic.md correctly 1`] = `
                 class="c7n-list-item-meta-title"
               >
                 <a
-                  href="https://choerodon.github.io/choerodon-ui/"
+                  href="https://choerodon.github.io/choerodon-hap-ui/"
                 >
                   Ant Design Title 3
                 </a>
@@ -146,7 +146,7 @@ exports[`renders ./components/list/demo/basic.md correctly 1`] = `
                 class="c7n-list-item-meta-title"
               >
                 <a
-                  href="https://choerodon.github.io/choerodon-ui/"
+                  href="https://choerodon.github.io/choerodon-hap-ui/"
                 >
                   Ant Design Title 4
                 </a>
@@ -942,7 +942,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
                     class="c7n-list-item-meta-title"
                   >
                     <a
-                      href="https://choerodon.github.io/choerodon-ui/"
+                      href="https://choerodon.github.io/choerodon-hap-ui/"
                     >
                       choerodon ui part 0
                     </a>
@@ -1038,7 +1038,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
                     class="c7n-list-item-meta-title"
                   >
                     <a
-                      href="https://choerodon.github.io/choerodon-ui/"
+                      href="https://choerodon.github.io/choerodon-hap-ui/"
                     >
                       choerodon ui part 1
                     </a>
@@ -1134,7 +1134,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
                     class="c7n-list-item-meta-title"
                   >
                     <a
-                      href="https://choerodon.github.io/choerodon-ui/"
+                      href="https://choerodon.github.io/choerodon-hap-ui/"
                     >
                       choerodon ui part 2
                     </a>
@@ -1230,7 +1230,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
                     class="c7n-list-item-meta-title"
                   >
                     <a
-                      href="https://choerodon.github.io/choerodon-ui/"
+                      href="https://choerodon.github.io/choerodon-hap-ui/"
                     >
                       choerodon ui part 3
                     </a>
@@ -1326,7 +1326,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
                     class="c7n-list-item-meta-title"
                   >
                     <a
-                      href="https://choerodon.github.io/choerodon-ui/"
+                      href="https://choerodon.github.io/choerodon-hap-ui/"
                     >
                       choerodon ui part 4
                     </a>

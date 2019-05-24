@@ -16,7 +16,7 @@ Button click throttle.
 
 
 ````jsx
-import { Button } from 'choerodon-ui/pro';
+import { Button } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   state = {

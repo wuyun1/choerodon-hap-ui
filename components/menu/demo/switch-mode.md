@@ -14,7 +14,7 @@ title:
 Show the dynamic switching mode (between 'inline' and 'vertical').
 
 ````jsx
-import { Menu, Icon, Switch } from 'choerodon-ui';
+import { Menu, Icon, Switch } from 'choerodon-hap-ui';
 const { SubMenu } = Menu;
 
 class Sider extends React.Component {

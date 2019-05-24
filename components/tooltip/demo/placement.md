@@ -14,7 +14,7 @@ title:
 The ToolTip has 12 placements choice.
 
 ````jsx
-import { Tooltip, Button } from 'choerodon-ui';
+import { Tooltip, Button } from 'choerodon-hap-ui';
 
 const text = <span>prompt text</span>;
 

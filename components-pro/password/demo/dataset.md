@@ -14,7 +14,7 @@ title:
 DataSet binding.
 
 ````jsx
-import { DataSet, Password } from 'choerodon-ui/pro';
+import { DataSet, Password } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ record, name, value, oldValue }) {
   console.log('[dataset newValue]', value, '[oldValue]', oldValue, `[record.get('${name}')]`, record.get(name));

@@ -14,7 +14,7 @@ title:
 Add prefix or suffix icons inside input.
 
 ````jsx
-import { Input, Icon } from 'choerodon-ui';
+import { Input, Icon } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   constructor(props) {

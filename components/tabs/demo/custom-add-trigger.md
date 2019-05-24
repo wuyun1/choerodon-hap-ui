@@ -14,7 +14,7 @@ Hide default plus icon, and bind event for customized trigger.
 
 
 ````jsx
-import { Tabs, Button } from 'choerodon-ui';
+import { Tabs, Button } from 'choerodon-hap-ui';
 const TabPane = Tabs.TabPane;
 
 class Demo extends React.Component {

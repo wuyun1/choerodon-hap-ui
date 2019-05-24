@@ -1,3 +1,3 @@
-import Menu from 'choerodon-ui/lib/menu';
+import Menu from 'choerodon-hap-ui/lib/menu';
 
 export default Menu;

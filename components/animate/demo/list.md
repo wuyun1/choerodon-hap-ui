@@ -16,7 +16,7 @@ List member.
 
 
 ````jsx
-import { Animate, Button } from 'choerodon-ui';
+import { Animate, Button } from 'choerodon-hap-ui';
 
 class App extends React.PureComponent {
   state = { list: [1, 2, 3, 4] };

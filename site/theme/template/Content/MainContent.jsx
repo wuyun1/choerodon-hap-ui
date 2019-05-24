@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'bisheng/router';
-import { Affix, Col, Icon, Menu, Row } from 'choerodon-ui';
+import { Affix, Col, Icon, Menu, Row } from 'choerodon-hap-ui';
 import classNames from 'classnames';
 import MobileMenu from 'rc-drawer';
 import Article from './Article';

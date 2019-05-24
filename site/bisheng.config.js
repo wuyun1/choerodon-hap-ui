@@ -25,7 +25,7 @@ function alertBabelConfig(rules) {
 
 module.exports = {
   port: 8001,
-  root: '/choerodon-ui/',
+  root: '/choerodon-hap-ui/',
   source: {
     components: './components',
     'components-pro': './components-pro',
@@ -81,10 +81,10 @@ module.exports = {
   },
   webpackConfig(config) {
     config.resolve.alias = {
-      'choerodon-ui/pro/lib': path.join(process.cwd(), 'components-pro'),
-      'choerodon-ui/pro': path.join(process.cwd(), 'index-pro'),
-      'choerodon-ui/lib': path.join(process.cwd(), 'components'),
-      'choerodon-ui': path.join(process.cwd(), 'index'),
+      'choerodon-hap-ui/pro/lib': path.join(process.cwd(), 'components-pro'),
+      'choerodon-hap-ui/pro': path.join(process.cwd(), 'index-pro'),
+      'choerodon-hap-ui/lib': path.join(process.cwd(), 'components'),
+      'choerodon-hap-ui': path.join(process.cwd(), 'index'),
       site: path.join(process.cwd(), 'site'),
       'react-router': 'react-router/umd/ReactRouter',
     };

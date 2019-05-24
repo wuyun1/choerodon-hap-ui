@@ -14,7 +14,7 @@ title:
 To set the container of the suggestion.
 
 ````jsx
-import { Mention, Popover, Button } from 'choerodon-ui';
+import { Mention, Popover, Button } from 'choerodon-hap-ui';
 const { toString, toContentState } = Mention;
 
 function onChange(editorState) {

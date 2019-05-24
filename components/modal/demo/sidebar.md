@@ -14,7 +14,7 @@ title:
 Sidebar.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui';
+import { Modal, Button } from 'choerodon-hap-ui';
 const { Sidebar } = Modal;
 
 class App extends React.Component {

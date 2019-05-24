@@ -14,7 +14,7 @@ title:
 Use `visible` prop to control the display of the card.
 
 ````jsx
-import { Popover, Button } from 'choerodon-ui';
+import { Popover, Button } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

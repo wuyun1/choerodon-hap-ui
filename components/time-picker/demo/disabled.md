@@ -15,7 +15,7 @@ A disabled state of the `TimePicker`.
 
 
 ````jsx
-import { TimePicker } from 'choerodon-ui';
+import { TimePicker } from 'choerodon-hap-ui';
 import moment from 'moment';
 
 ReactDOM.render(

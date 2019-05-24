@@ -14,7 +14,7 @@ title:
 Basic list.
 
 ````jsx
-import { List, Avatar } from 'choerodon-ui';
+import { List, Avatar } from 'choerodon-hap-ui';
 
 const data = [
   {
@@ -39,7 +39,7 @@ ReactDOM.render(
       <List.Item>
         <List.Item.Meta
           avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-          title={<a href="https://choerodon.github.io/choerodon-ui/">{item.title}</a>}
+          title={<a href="https://choerodon.github.io/choerodon-hap-ui/">{item.title}</a>}
           description="Ant Design, a design language for background applications, is refined by Ant UED Team"
         />
       </List.Item>

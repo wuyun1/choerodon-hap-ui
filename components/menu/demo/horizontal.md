@@ -14,7 +14,7 @@ title:
 Horizontal top navigation menu.
 
 ````jsx
-import { Menu, Icon } from 'choerodon-ui';
+import { Menu, Icon } from 'choerodon-hap-ui';
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 
@@ -54,7 +54,7 @@ class App extends React.Component {
           </MenuItemGroup>
         </SubMenu>
         <Menu.Item key="alipay">
-          <a href="https://choerodon.github.io/choerodon-ui/" target="_blank" rel="noopener noreferrer">Navigation Four - Link</a>
+          <a href="https://choerodon.github.io/choerodon-hap-ui/" target="_blank" rel="noopener noreferrer">Navigation Four - Link</a>
         </Menu.Item>
       </Menu>
     );

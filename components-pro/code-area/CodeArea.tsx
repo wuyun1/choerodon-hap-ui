@@ -7,7 +7,7 @@ import { IInstance } from 'react-codemirror2';
 import isEqual from 'lodash/isEqual';
 import omit from 'lodash/omit';
 import noop from 'lodash/noop';
-import KeyCode from 'choerodon-ui/lib/_util/KeyCode';
+import KeyCode from 'choerodon-hap-ui/lib/_util/KeyCode';
 import FormField from '../field';
 import { FormFieldProps } from '../field/FormField';
 import { CodeAreaFormatter } from './CodeAreaFormatter';

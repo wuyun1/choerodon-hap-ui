@@ -14,7 +14,7 @@ title:
 Make it pop up under some conditions.
 
 ````jsx
-import { Popconfirm, Switch, message } from 'choerodon-ui';
+import { Popconfirm, Switch, message } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

@@ -14,7 +14,7 @@ title:
 Large size tabs are usally used in page header, and small size could be used in Modal.
 
 ````jsx
-import { Tabs, Radio } from 'choerodon-ui';
+import { Tabs, Radio } from 'choerodon-hap-ui';
 const { TabPane } = Tabs;
 
 class Demo extends React.Component {

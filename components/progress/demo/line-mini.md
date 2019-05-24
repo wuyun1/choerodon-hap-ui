@@ -14,7 +14,7 @@ title:
 Appropriate for a narrow area.
 
 ````jsx
-import { Progress } from 'choerodon-ui';
+import { Progress } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div style={{ width: 170 }}>

@@ -1,4 +1,4 @@
-import 'choerodon-ui/lib/style/index.less';
+import 'choerodon-hap-ui/lib/style/index.less';
 import './index.less';
 // style dependencies
 import '../../output/style';

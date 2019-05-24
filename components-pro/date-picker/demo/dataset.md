@@ -14,7 +14,7 @@ title:
 DataSet binding.
 
 ````jsx
-import { DataSet, DatePicker, DateTimePicker, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, DatePicker, DateTimePicker, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ value, oldValue }) {
   console.log('[dataset newValue]', value && value.format(), '[oldValue]', oldValue && oldValue.format());

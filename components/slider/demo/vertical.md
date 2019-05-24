@@ -14,7 +14,7 @@ title:
 The vertical Slider.
 
 ````jsx
-import { Slider } from 'choerodon-ui';
+import { Slider } from 'choerodon-hap-ui';
 
 const style = {
   float: 'left',

@@ -13,7 +13,7 @@ title:
 Show stepped options by `hourStep` `minuteStep` `secondStep`.
 
 ````jsx
-import { TimePicker } from 'choerodon-ui';
+import { TimePicker } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <TimePicker minuteStep={15} secondStep={10} />,

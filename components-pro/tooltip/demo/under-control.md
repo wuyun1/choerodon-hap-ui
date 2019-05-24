@@ -18,7 +18,7 @@ Control a Tooltip's behavior via setting `hidden` property.
 After defining `hidden` property, the `Tooltip` component won't listen to regular events like mouse hover. The visibility of the `Tooltip` depends entirely on the `hidden` property. This feature can be used for displaying error message programatically.
 
 ````jsx
-import { Tooltip, Button } from 'choerodon-ui/pro';
+import { Tooltip, Button } from 'choerodon-hap-ui/pro';
 
 class Demo extends React.Component {
   state = {

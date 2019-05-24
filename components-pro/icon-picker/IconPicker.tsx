@@ -10,7 +10,7 @@ import { $l } from '../locale-context';
 import IconCategory from './IconCategory';
 import { action, computed, observable, runInAction } from 'mobx';
 import autobind from '../_util/autobind';
-import KeyCode from 'choerodon-ui/lib/_util/KeyCode';
+import KeyCode from 'choerodon-hap-ui/lib/_util/KeyCode';
 import { stopEvent } from '../_util/EventManager';
 
 const { categories } = Icon;

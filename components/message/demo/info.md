@@ -14,7 +14,7 @@ title:
 Normal messages as feedbacks.
 
 ````jsx
-import { message, Button } from 'choerodon-ui';
+import { message, Button } from 'choerodon-hap-ui';
 
 const info = () => {
   message.info('This is a normal message');

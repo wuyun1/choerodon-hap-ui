@@ -14,7 +14,7 @@ title:
 Constraint the amount of filed being uploaded at one time.
 
 ````jsx
-import { Upload } from 'choerodon-ui/pro';
+import { Upload } from 'choerodon-hap-ui/pro';
 
 const props = {
   headers: {

@@ -14,7 +14,7 @@ title:
 Responsive grid list. The size property is as same as [Layout Grid](/components/grid/#Col).
 
 ````jsx
-import { List, Card } from 'choerodon-ui';
+import { List, Card } from 'choerodon-hap-ui';
 
 const data = [
   {

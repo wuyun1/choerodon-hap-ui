@@ -14,7 +14,7 @@ title:
 Allow only select parent options.
 
 ````jsx
-import { Cascader } from 'choerodon-ui';
+import { Cascader } from 'choerodon-hap-ui';
 
 const options = [{
   value: 'zhejiang',

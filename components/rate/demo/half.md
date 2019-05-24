@@ -14,7 +14,7 @@ title:
 Support select half star.
 
 ````jsx
-import { Rate } from 'choerodon-ui';
+import { Rate } from 'choerodon-hap-ui';
 
 ReactDOM.render(<Rate allowHalf defaultValue={2.5} />, mountNode);
 ````

@@ -14,7 +14,7 @@ title:
 Example of creating a search box by grouping a standard input with a search button, added in `2.5.0`.
 
 ````jsx
-import { Input } from 'choerodon-ui';
+import { Input } from 'choerodon-hap-ui';
 const Search = Input.Search;
 
 ReactDOM.render(

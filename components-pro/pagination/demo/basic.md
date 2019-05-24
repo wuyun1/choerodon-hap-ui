@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ````jsx
-import { Form, Switch, DataSet, Pagination } from 'choerodon-ui/pro';
+import { Form, Switch, DataSet, Pagination } from 'choerodon-hap-ui/pro';
 import { observer } from 'mobx-react';
 
 function handleChange(page, pageSize) {

@@ -1,3 +1,3 @@
-import Tabs from 'choerodon-ui/lib/tabs';
+import Tabs from 'choerodon-hap-ui/lib/tabs';
 
 export default Tabs;

@@ -14,7 +14,7 @@ title:
 Tiny size pagination.
 
 ````jsx
-import { Pagination } from 'choerodon-ui';
+import { Pagination } from 'choerodon-hap-ui';
 
 function showTotal(total) {
   return `Total ${total} items`;

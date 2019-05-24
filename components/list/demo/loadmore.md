@@ -14,7 +14,7 @@ title:
 Load more list with `loadMore` property.
 
 ````jsx
-import { List, Avatar, Button, Spin } from 'choerodon-ui';
+import { List, Avatar, Button, Spin } from 'choerodon-hap-ui';
 
 import reqwest from 'reqwest';
 
@@ -86,7 +86,7 @@ class LoadMoreList extends React.Component {
           <List.Item actions={[<a>edit</a>, <a>more</a>]}>
             <List.Item.Meta
               avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-              title={<a href="https://choerodon.github.io/choerodon-ui/">{item.name.last}</a>}
+              title={<a href="https://choerodon.github.io/choerodon-hap-ui/">{item.name.last}</a>}
               description="Ant Design, a design language for background applications, is refined by Ant UED Team"
             />
             <div>content</div>

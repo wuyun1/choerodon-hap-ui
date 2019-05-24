@@ -14,7 +14,7 @@ title:
 You can custom text format by setting `format`.
 
 ````jsx
-import { Progress } from 'choerodon-ui';
+import { Progress } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

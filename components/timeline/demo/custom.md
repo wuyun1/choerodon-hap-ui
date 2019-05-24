@@ -14,7 +14,7 @@ title:
 Set a node as an icon or other custom element.
 
 ````jsx
-import { Timeline, Icon } from 'choerodon-ui';
+import { Timeline, Icon } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Timeline>

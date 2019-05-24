@@ -1,1 +1,1 @@
-import 'choerodon-ui/lib/style';
+import 'choerodon-hap-ui/lib/style';

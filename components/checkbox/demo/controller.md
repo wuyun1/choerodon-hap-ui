@@ -14,7 +14,7 @@ title:
 Communicated with other components.
 
 ````jsx
-import { Checkbox, Button } from 'choerodon-ui';
+import { Checkbox, Button } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

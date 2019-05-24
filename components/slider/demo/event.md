@@ -15,7 +15,7 @@ The `onChange` callback function will fire when the user changes the slider's va
 The `onAfterChange` callback function will fire when `onmouseup` fired.
 
 ````jsx
-import { Slider } from 'choerodon-ui';
+import { Slider } from 'choerodon-hap-ui';
 
 function onChange(value) {
   console.log('onChange: ', value);

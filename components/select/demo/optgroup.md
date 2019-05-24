@@ -14,7 +14,7 @@ title:
 Using `OptGroup` to group the options.
 
 ````jsx
-import { Select } from 'choerodon-ui';
+import { Select } from 'choerodon-hap-ui';
 const { Option, OptGroup } = Select;
 
 function handleChange(value) {

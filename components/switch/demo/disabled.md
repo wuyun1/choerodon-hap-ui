@@ -14,7 +14,7 @@ Switch 失效状态。
 Disabled state of `Switch`.
 
 ````jsx
-import { Switch, Button } from 'choerodon-ui';
+import { Switch, Button } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {

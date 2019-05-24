@@ -1,6 +1,6 @@
 ---
 order: 6
-title: 
+title:
   zh-CN: Flex 排序
   en-US: Flex Order
 ---
@@ -14,7 +14,7 @@ title:
 To change the element sort by Flex layout order.
 
 ````jsx
-import { Row, Col } from 'choerodon-ui';
+import { Row, Col } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

@@ -18,7 +18,7 @@ title:
 > it is an absolute controlled component and has no uncontrolled mode.
 
 ````jsx
-import { Tag } from 'choerodon-ui';
+import { Tag } from 'choerodon-hap-ui';
 const { CheckableTag } = Tag;
 
 class MyTag extends React.Component {

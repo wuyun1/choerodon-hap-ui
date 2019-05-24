@@ -14,7 +14,7 @@ value 和 onChange 需要配合使用。
 `value` and `onChange` should be used together,
 
 ````jsx
-import { TimePicker } from 'choerodon-ui';
+import { TimePicker } from 'choerodon-hap-ui';
 
 class Demo extends React.Component {
   state = {

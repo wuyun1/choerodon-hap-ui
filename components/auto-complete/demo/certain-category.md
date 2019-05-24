@@ -15,7 +15,7 @@ Demonstration of [Lookup Patterns: Certain Category](/docs/spec/reaction#Lookup-
 Basic Usage, set datasource of autocomplete with `dataSource` property.
 
 ````jsx
-import { Button, Input, AutoComplete } from 'choerodon-ui';
+import { Button, Input, AutoComplete } from 'choerodon-hap-ui';
 
 const Option = AutoComplete.Option;
 const OptGroup = AutoComplete.OptGroup;

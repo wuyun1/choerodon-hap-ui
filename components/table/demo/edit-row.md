@@ -14,7 +14,7 @@ title:
 Table with editable rows.
 
 ````jsx
-import { Table, Input, Popconfirm } from 'choerodon-ui';
+import { Table, Input, Popconfirm } from 'choerodon-hap-ui';
 
 const data = [];
 for (let i = 0; i < 100; i++) {

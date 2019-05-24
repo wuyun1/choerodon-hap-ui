@@ -17,7 +17,7 @@ title:
 where `xs = {6}` is equivalent to `xs = {{span: 6}}`.
 
 ````jsx
-import { Row, Col } from 'choerodon-ui';
+import { Row, Col } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Row>

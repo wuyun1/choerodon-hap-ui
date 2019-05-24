@@ -14,7 +14,7 @@ title:
 There are 12 `placement` options available.
 
 ````jsx
-import { Popover, Button } from 'choerodon-ui';
+import { Popover, Button } from 'choerodon-hap-ui';
 
 const text = <span>Title</span>;
 const content = (

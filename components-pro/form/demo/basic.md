@@ -14,7 +14,7 @@ title:
 Form.
 
 ````jsx
-import { Form, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Select, SelectBox, Button, Menu, Dropdown, Icon } from 'choerodon-ui/pro';
+import { Form, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Select, SelectBox, Button, Menu, Dropdown, Icon } from 'choerodon-hap-ui/pro';
 
 const { Option } = Select;
 
@@ -34,7 +34,7 @@ const menu = (
       <a target="_blank" rel="noopener noreferrer" href="https://choerodon.com.cn/">2nd menu item</a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="https://github.com/choerodon/choerodon-ui">3rd menu item</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/choerodon/choerodon-hap-ui">3rd menu item</a>
     </Menu.Item>
   </Menu>
 );

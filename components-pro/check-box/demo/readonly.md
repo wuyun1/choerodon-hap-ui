@@ -14,7 +14,7 @@ title:
 Read Only.
 
 ````jsx
-import { CheckBox, DataSet } from 'choerodon-ui/pro';
+import { CheckBox, DataSet } from 'choerodon-hap-ui/pro';
 
 const data = [{ rd: 'C' }];
 

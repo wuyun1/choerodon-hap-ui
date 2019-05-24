@@ -14,7 +14,7 @@ title:
 Divider and disabled menu item.
 
 ````jsx
-import { Menu, Dropdown, Icon } from 'choerodon-ui';
+import { Menu, Dropdown, Icon } from 'choerodon-hap-ui';
 
 const menu = (
   <Menu>

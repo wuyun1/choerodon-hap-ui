@@ -14,7 +14,7 @@ title:
 Display hint on the top-right corner, such as acceptable types.
 
 ````jsx
-import { Upload } from 'choerodon-ui/pro';
+import { Upload } from 'choerodon-hap-ui/pro';
 
 const props = {
   headers: {

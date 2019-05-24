@@ -14,7 +14,7 @@ title:
 There are `primary` button, `default` button, `dashed` button.
 
 ````jsx
-import { Button } from 'choerodon-ui';
+import { Button } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

@@ -14,7 +14,7 @@ title:
 To customize the style or font of the close button.
 
 ````jsx
-import { Button, notification } from 'choerodon-ui';
+import { Button, notification } from 'choerodon-hap-ui';
 
 const close = () => {
   console.log('Notification was closed. Either the close button was clicked or duration time elapsed.');

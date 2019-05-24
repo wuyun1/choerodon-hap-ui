@@ -14,7 +14,7 @@ title:
 Float Label.
 
 ````jsx
-import { Form, CheckBox, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Range, Select, SelectBox, Switch, TextArea, Button } from 'choerodon-ui/pro';
+import { Form, CheckBox, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Range, Select, SelectBox, Switch, TextArea, Button } from 'choerodon-hap-ui/pro';
 
 const { Option } = Select;
 

@@ -14,7 +14,7 @@ title:
 Drawer.
 
 ````jsx
-import { Modal, Button } from 'choerodon-ui/pro';
+import { Modal, Button } from 'choerodon-hap-ui/pro';
 
 const key1 = Modal.key();
 const key2 = Modal.key();

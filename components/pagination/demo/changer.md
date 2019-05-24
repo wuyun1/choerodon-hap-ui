@@ -14,7 +14,7 @@ title:
 Change `pageSize`.
 
 ````jsx
-import { Pagination } from 'choerodon-ui';
+import { Pagination } from 'choerodon-hap-ui';
 
 function onShowSizeChange(current, pageSize) {
   console.log(current, pageSize);

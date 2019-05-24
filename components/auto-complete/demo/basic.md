@@ -14,7 +14,7 @@ title:
 Basic Usage, set datasource of autocomplete with `dataSource` property.
 
 ````jsx
-import { AutoComplete } from 'choerodon-ui';
+import { AutoComplete } from 'choerodon-hap-ui';
 
 function onSelect(value) {
   console.log('onSelect', value);

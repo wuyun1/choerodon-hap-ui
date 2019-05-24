@@ -26,7 +26,7 @@ You can gain full control over filelist by configuring `fileList`. You can accom
 3) filter successfully uploaded files according to response from server.
 
 ````jsx
-import { Upload, Button, Icon } from 'choerodon-ui';
+import { Upload, Button, Icon } from 'choerodon-hap-ui';
 
 class MyUpload extends React.Component {
   state = {

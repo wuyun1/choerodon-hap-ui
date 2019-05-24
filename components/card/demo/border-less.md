@@ -14,7 +14,7 @@ title:
 A borderless card on a gray background.
 
 ````jsx
-import { Card } from 'choerodon-ui';
+import { Card } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div style={{ background: '#ECECEC', padding: '30px' }}>

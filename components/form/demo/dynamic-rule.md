@@ -14,7 +14,7 @@ title:
 Perform different check rules according to different situations.
 
 ````jsx
-import { Form, Input, Button, Checkbox } from 'choerodon-ui';
+import { Form, Input, Button, Checkbox } from 'choerodon-hap-ui';
 const FormItem = Form.Item;
 
 const formItemLayout = {

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 import DocumentTitle from 'react-document-title';
 import { getChildren } from 'jsonml.js/lib/utils';
-import { Affix, Alert, Timeline } from 'choerodon-ui';
+import { Affix, Alert, Timeline } from 'choerodon-hap-ui';
 import EditButton from './EditButton';
 
 export default class Article extends React.Component {

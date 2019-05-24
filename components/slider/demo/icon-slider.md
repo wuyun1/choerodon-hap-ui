@@ -14,7 +14,7 @@ title:
 You can add an icon beside the slider to make it meaningful.
 
 ````jsx
-import { Slider, Icon } from 'choerodon-ui';
+import { Slider, Icon } from 'choerodon-hap-ui';
 
 class IconSlider extends React.Component {
   state = {

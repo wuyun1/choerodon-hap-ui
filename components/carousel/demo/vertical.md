@@ -14,7 +14,7 @@ title:
 Vertical pagination.
 
 ````jsx
-import { Carousel } from 'choerodon-ui';
+import { Carousel } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Carousel vertical>

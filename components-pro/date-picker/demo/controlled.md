@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ````jsx
-import { DatePicker } from 'choerodon-ui/pro';
+import { DatePicker } from 'choerodon-hap-ui/pro';
 
 class App extends React.Component {
   state = {}

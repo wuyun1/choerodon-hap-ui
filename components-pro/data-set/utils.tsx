@@ -7,7 +7,7 @@ import isString from 'lodash/isString';
 import isArray from 'lodash/isArray';
 import isNumber from 'lodash/isNumber';
 import isEqual from 'lodash/isEqual';
-import warning from 'choerodon-ui/lib/_util/warning';
+import warning from 'choerodon-hap-ui/lib/_util/warning';
 import Field, { FieldProps, Fields } from './Field';
 import { BooleanValue, FieldType, SortOrder } from './enum';
 import DataSet from './DataSet';

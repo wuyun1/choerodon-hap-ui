@@ -18,7 +18,7 @@ Search and select options directly.
 > Now, `Cascader[showSearch]` doesn't support search on server
 
 ````jsx
-import { Cascader } from 'choerodon-ui';
+import { Cascader } from 'choerodon-hap-ui';
 
 const options = [{
   value: 'zhejiang',

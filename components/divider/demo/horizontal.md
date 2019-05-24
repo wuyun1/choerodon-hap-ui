@@ -14,7 +14,7 @@ title:
 Divider default type is `horizontal`. Support inner text inside Divider.
 
 ````jsx
-import { Divider } from 'choerodon-ui';
+import { Divider } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <div>

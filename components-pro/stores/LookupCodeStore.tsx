@@ -1,13 +1,13 @@
 import { action, get, observable, ObservableMap } from 'mobx';
 import isString from 'lodash/isString';
 import isObject from 'lodash/isObject';
-import warning from 'choerodon-ui/lib/_util/warning';
+import warning from 'choerodon-hap-ui/lib/_util/warning';
 import axios from '../axios';
 import Field from '../data-set/Field';
 import lovCodeStore from './LovCodeStore';
 import { FieldType } from '../data-set/enum';
 import { isSameLike } from '../data-set/utils';
-import { getConfig } from 'choerodon-ui/lib/configure';
+import { getConfig } from 'choerodon-hap-ui/lib/configure';
 
 export type responseData = object[];
 export type responseTypeIncludeRows = { rows: responseData };

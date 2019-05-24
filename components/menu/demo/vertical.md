@@ -14,7 +14,7 @@ title:
 Submenus open as pop-ups.
 
 ````jsx
-import { Menu, Icon } from 'choerodon-ui';
+import { Menu, Icon } from 'choerodon-hap-ui';
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 

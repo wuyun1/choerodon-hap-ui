@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ````jsx
-import { TextArea, Row, Col } from 'choerodon-ui/pro';
+import { TextArea, Row, Col } from 'choerodon-hap-ui/pro';
 
 
 ReactDOM.render(

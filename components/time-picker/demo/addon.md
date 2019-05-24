@@ -14,7 +14,7 @@ title:
 Render addon contents to timepicker panel's bottom.
 
 ````jsx
-import { TimePicker, Button } from 'choerodon-ui';
+import { TimePicker, Button } from 'choerodon-hap-ui';
 
 class TimePickerAddonDemo extends React.Component {
   state = { open: false };

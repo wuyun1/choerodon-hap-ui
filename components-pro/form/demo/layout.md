@@ -14,7 +14,7 @@ title:
 Layout.
 
 ````jsx
-import { Form, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Select, SelectBox, TextArea, Button } from 'choerodon-ui/pro';
+import { Form, TextField, Password, NumberField, EmailField, UrlField, DatePicker, Select, SelectBox, TextArea, Button } from 'choerodon-hap-ui/pro';
 
 const { Option } = Select;
 

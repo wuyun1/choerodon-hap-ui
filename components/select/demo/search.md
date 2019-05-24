@@ -14,7 +14,7 @@ title:
 Search the options while expanded.
 
 ````jsx
-import { Select } from 'choerodon-ui';
+import { Select } from 'choerodon-hap-ui';
 const Option = Select.Option;
 
 ReactDOM.render(

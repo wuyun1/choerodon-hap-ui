@@ -3,7 +3,7 @@ order: 4
 title: Use in create-react-app
 ---
 
-[create-react-app](https://github.com/facebookincubator/create-react-app) is one of the best React application development tools. We are going to use `choerodon-ui` within it and modify the webpack config for some customized needs.
+[create-react-app](https://github.com/facebookincubator/create-react-app) is one of the best React application development tools. We are going to use `choerodon-hap-ui` within it and modify the webpack config for some customized needs.
 
 ---
 
@@ -15,25 +15,25 @@ We need to install `create-react-app` first, you may need install [yarn](https:/
 $ npm install -g create-react-app yarn
 ```
 
-Create a new project named `choerodon-ui-demo`.
+Create a new project named `choerodon-hap-ui-demo`.
 
 ```bash
-$ create-react-app choerodon-ui-demo
+$ create-react-app choerodon-hap-ui-demo
 ```
 
 The tool will create and initialize environment and dependencies automatically,
 please try config your proxy setting or use another npm registry if any network errors happen during it.
 
-Then we go inside `choerodon-ui-demo` and start it.
+Then we go inside `choerodon-hap-ui-demo` and start it.
 
 ```bash
-$ cd choerodon-ui-demo
+$ cd choerodon-hap-ui-demo
 $ yarn start
 ```
 
 Open the browser at http://localhost:3000/. It renders a header saying "Welcome to React" on the page.
 
-## Import choerodon-ui
+## Import choerodon-hap-ui
 
 Below is the default directory structure.
 
@@ -53,17 +53,17 @@ Below is the default directory structure.
 └── yarn.lock
 ```
 
-Now we install `choerodon-ui` from yarn or npm.
+Now we install `choerodon-hap-ui` from yarn or npm.
 
 ```bash
-$ yarn add choerodon-ui
+$ yarn add choerodon-hap-ui
 ```
 
-Modify `src/App.js`, import Button component from `choerodon-ui`.
+Modify `src/App.js`, import Button component from `choerodon-hap-ui`.
 
 ```jsx
 import React, { Component } from 'react';
-import Button from 'choerodon-ui/lib/button';
+import Button from 'choerodon-hap-ui/lib/button';
 import './App.css';
 
 class App extends Component {
@@ -79,10 +79,10 @@ class App extends Component {
 export default App;
 ```
 
-Add `choerodon-ui/dist/choerodon-ui.css` at the top of `src/App.css`.
+Add `choerodon-hap-ui/dist/choerodon-hap-ui.css` at the top of `src/App.css`.
 
 ```css
-@import '~choerodon-ui/dist/choerodon-ui.css';
+@import '~choerodon-hap-ui/dist/choerodon-hap-ui.css';
 
 .App {
   text-align: center;
@@ -91,12 +91,12 @@ Add `choerodon-ui/dist/choerodon-ui.css` at the top of `src/App.css`.
 ...
 ```
 
-Ok, you should now see a blue primary button displayed on the page. Next you can choose any components of `choerodon-ui` to develop your application. Visit other workflows of `create-react-app` at its [User Guide ](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+Ok, you should now see a blue primary button displayed on the page. Next you can choose any components of `choerodon-hap-ui` to develop your application. Visit other workflows of `create-react-app` at its [User Guide ](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 
 ## Advanced Guides
 
-We are successfully running choerodon-ui components now but in the real world, there are still lots of problems about choerodon-ui-demo.
+We are successfully running choerodon-hap-ui components now but in the real world, there are still lots of problems about choerodon-hap-ui-demo.
 For instance, we actually import all styles of components in the project which may be a network performance issue.
 
 Now we need to customize the default webpack config. We can achieve that by using [react-app-rewired](https://github.com/timarney/react-app-rewired) which is one of create-react-app's custom config solutions.
@@ -140,18 +140,18 @@ $ yarn add babel-plugin-import --dev
 + const { injectBabelPlugin } = require('react-app-rewired');
 
   module.exports = function override(config, env) {
-+   config = injectBabelPlugin(['import', { libraryName: 'choerodon-ui', libraryDirectory: 'es', style: 'css' }], config);
++   config = injectBabelPlugin(['import', { libraryName: 'choerodon-hap-ui', libraryDirectory: 'es', style: 'css' }], config);
     return config;
   };
 ```
 
-Remove the `@import '~choerodon-ui/dist/choerodon-ui.css';` statement added before because `babel-plugin-import` will import styles and import components like below:
+Remove the `@import '~choerodon-hap-ui/dist/choerodon-hap-ui.css';` statement added before because `babel-plugin-import` will import styles and import components like below:
 
 ```diff
   // src/App.js
   import React, { Component } from 'react';
-- import Button from 'choerodon-ui/lib/button';
-+ import { Button } from 'choerodon-ui';
+- import Button from 'choerodon-hap-ui/lib/button';
++ import { Button } from 'choerodon-hap-ui';
   import './App.css';
 
   class App extends Component {
@@ -182,8 +182,8 @@ $ yarn add react-app-rewire-less --dev
 + const rewireLess = require('react-app-rewire-less');
 
   module.exports = function override(config, env) {
--   config = injectBabelPlugin(['import', { libraryName: 'choerodon-ui', style: 'css' }], config);
-+   config = injectBabelPlugin(['import', { libraryName: 'choerodon-ui', style: true }], config);  // change importing css to less
+-   config = injectBabelPlugin(['import', { libraryName: 'choerodon-hap-ui', style: 'css' }], config);
++   config = injectBabelPlugin(['import', { libraryName: 'choerodon-hap-ui', style: true }], config);  // change importing css to less
 +   config = rewireLess.withLoaderOptions({
 +     modifyVars: { "@primary-color": "#1DA57A" },
 +   })(config, env);

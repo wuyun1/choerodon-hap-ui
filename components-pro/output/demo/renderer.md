@@ -14,7 +14,7 @@ title:
 Use `renderer` property to override the default render process.
 
 ````jsx
-import { Output } from 'choerodon-ui/pro';
+import { Output } from 'choerodon-hap-ui/pro';
 
 function rendererOne(param) {
   const { text } = param;

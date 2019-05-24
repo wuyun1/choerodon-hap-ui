@@ -14,7 +14,7 @@ title:
 SelectBox
 
 ````jsx
-import { DataSet, SelectBox, Row, Col } from 'choerodon-ui/pro';
+import { DataSet, SelectBox, Row, Col } from 'choerodon-hap-ui/pro';
 
 function handleDataSetChange({ record, name, value, oldValue }) {
   console.log('[dataset newValue]', value, '[oldValue]', oldValue, '[record.get(name)]', record.get(name));

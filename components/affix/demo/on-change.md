@@ -14,7 +14,7 @@ title:
 Callback with affixed state.
 
 ````jsx
-import { Affix, Button } from 'choerodon-ui';
+import { Affix, Button } from 'choerodon-hap-ui';
 
 ReactDOM.render(
   <Affix offsetTop={120} onChange={affixed => console.log(affixed)}>

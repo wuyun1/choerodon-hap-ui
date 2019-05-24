@@ -15,7 +15,7 @@ You can use `Card.Meta` to support more flexible content.
 
 
 ````jsx
-import { Card } from 'choerodon-ui';
+import { Card } from 'choerodon-hap-ui';
 const { Meta } = Card;
 
 ReactDOM.render(

@@ -14,7 +14,7 @@ Radio 不可用。
 Radio unavailable.
 
 ```jsx
-import { Radio, Button } from 'choerodon-ui';
+import { Radio, Button } from 'choerodon-hap-ui';
 
 class App extends React.Component {
   state = {
