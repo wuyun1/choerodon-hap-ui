@@ -1,0 +1,116 @@
+import React, { Component, CSSProperties, ReactElement, ReactNode } from 'react';
+import Tooltip from '../tooltip';
+import RcSlider, { Handle as RcHandle, Range as RcRange } from '../rc-components/slider';
+import { getPrefixCls } from '../configure';
+
+export interface SliderMarks {
+  [key: number]: ReactNode | {
+    style: CSSProperties,
+    label: ReactNode,
+  };
+}
+
+export type SliderValue = number | [number, number];
+
+export type HandleGeneratorFn = (info: {
+  value: number,
+  dragging: boolean,
+  index: number,
+  rest: any[],
+}) => ReactElement<any>;
+
+export interface SliderProps {
+  prefixCls?: string;
+  tooltipPrefixCls?: string;
+  range?: boolean;
+  min?: number;
+  max?: number;
+  step?: number | null;
+  marks?: SliderMarks;
+  dots?: boolean;
+  value?: SliderValue;
+  defaultValue?: SliderValue;
+  included?: boolean;
+  disabled?: boolean;
+  vertical?: boolean;
+  onChange?: (value: SliderValue) => void;
+  onAfterChange?: (value: SliderValue) => void;
+  tipFormatter?: null | ((value: number) => ReactNode);
+  className?: string;
+  id?: string;
+}
+
+export interface SliderState {
+  visibles: { [index: number]: boolean };
+}
+
+export default class Slider extends Component<SliderProps, SliderState> {
+  static displayName = 'Slider';
+  static defaultProps = {
+    tipFormatter(value: number) {
+      return value.toString();
+    },
+  };
+
+  private rcSlider: any;
+
+  constructor(props: SliderProps) {
+    super(props);
+    this.state = {
+      visibles: {},
+    };
+  }
+
+  toggleTooltipVisible = (index: number, visible: boolean) => {
+    this.setState(({ visibles }) => ({
+      visibles: {
+        ...visibles,
+        [index]: visible,
+      },
+    }));
+  };
+  handleWithTooltip: HandleGeneratorFn = ({ value, dragging, index, ...restProps }) => {
+    const { tooltipPrefixCls: customizeTooltipPrefixCls, tipFormatter } = this.props;
+    const tooltipPrefixCls = getPrefixCls('tooltip', customizeTooltipPrefixCls);
+    const { visibles } = this.state;
+    const visible = tipFormatter ? (visibles[index] || dragging) : false;
+    return (
+      <Tooltip
+        prefixCls={tooltipPrefixCls}
+        title={tipFormatter ? tipFormatter(value) : ''}
+        visible={visible}
+        placement="top"
+        transitionName="zoom-down"
+        key={index}
+      >
+        <RcHandle
+          {...restProps}
+          value={value}
+          onMouseEnter={() => this.toggleTooltipVisible(index, true)}
+          onMouseLeave={() => this.toggleTooltipVisible(index, false)}
+        />
+      </Tooltip>
+    );
+  };
+
+  focus() {
+    this.rcSlider.focus();
+  }
+
+  blur() {
+    this.rcSlider.focus();
+  }
+
+  saveSlider = (node: any) => {
+    this.rcSlider = node;
+  };
+
+  render() {
+    const { range, prefixCls: customizePrefixCls, ...restProps } = this.props;
+    const prefixCls = getPrefixCls('slider', customizePrefixCls);
+    if (range) {
+      return <RcRange {...restProps} ref={this.saveSlider} handle={this.handleWithTooltip} prefixCls={prefixCls} />;
+    }
+    return <RcSlider {...restProps} ref={this.saveSlider} handle={this.handleWithTooltip} prefixCls={prefixCls} />;
+  }
+}

@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/breadcrumb/demo/basic.md correctly 1`] = `
+<div
+  class="c7n-breadcrumb"
+>
+  <span>
+    <span
+      class="c7n-breadcrumb-link"
+    >
+      Home
+    </span>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <span
+      class="c7n-breadcrumb-link"
+    >
+      <a
+        href=""
+      >
+        Application Center
+      </a>
+    </span>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <span
+      class="c7n-breadcrumb-link"
+    >
+      <a
+        href=""
+      >
+        Application List
+      </a>
+    </span>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <span
+      class="c7n-breadcrumb-link"
+    >
+      An Application
+    </span>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/breadcrumb/demo/router.md correctly 1`] = `
+<div
+  class="demo"
+>
+  <div
+    class="demo-nav"
+  >
+    <a
+      href="#/"
+    >
+      Home
+    </a>
+    <a
+      href="#/apps"
+    >
+      Application List
+    </a>
+  </div>
+  Home Page
+  <div
+    class="c7n-alert c7n-alert-info c7n-alert-no-icon"
+    data-show="true"
+    style="margin:16px 0;"
+  >
+    <span
+      class="c7n-alert-message"
+    >
+      Click the navigation above to switch:
+    </span>
+    <span
+      class="c7n-alert-description"
+    />
+  </div>
+  <div
+    class="c7n-breadcrumb"
+  >
+    <span>
+      <span
+        class="c7n-breadcrumb-link"
+      >
+        <span>
+          Home
+        </span>
+      </span>
+      <span
+        class="c7n-breadcrumb-separator"
+      >
+        /
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/breadcrumb/demo/router-4.md correctly 1`] = `
+<div
+  class="demo"
+>
+  <div
+    class="demo-nav"
+  >
+    <a
+      href="#/"
+    >
+      Home
+    </a>
+    <a
+      href="#/apps"
+    >
+      Application List
+    </a>
+  </div>
+  Home Page
+  <div
+    class="c7n-alert c7n-alert-info c7n-alert-no-icon"
+    data-show="true"
+    style="margin:16px 0;"
+  >
+    <span
+      class="c7n-alert-message"
+    >
+      Click the navigation above to switch:
+    </span>
+    <span
+      class="c7n-alert-description"
+    />
+  </div>
+  <div
+    class="c7n-breadcrumb"
+  />
+</div>
+`;
+
+exports[`renders ./components/breadcrumb/demo/separator.md correctly 1`] = `
+<div
+  class="c7n-breadcrumb"
+>
+  <span>
+    <span
+      class="c7n-breadcrumb-link"
+    >
+      Home
+    </span>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      &gt;
+    </span>
+  </span>
+  <span>
+    <a
+      class="c7n-breadcrumb-link"
+      href=""
+    >
+      Application Center
+    </a>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      &gt;
+    </span>
+  </span>
+  <span>
+    <a
+      class="c7n-breadcrumb-link"
+      href=""
+    >
+      Application List
+    </a>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      &gt;
+    </span>
+  </span>
+  <span>
+    <span
+      class="c7n-breadcrumb-link"
+    >
+      An Application
+    </span>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      &gt;
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/breadcrumb/demo/withIcon.md correctly 1`] = `
+<div
+  class="c7n-breadcrumb"
+>
+  <span>
+    <a
+      class="c7n-breadcrumb-link"
+      href=""
+    >
+      <i
+        class="icon icon-home"
+      />
+    </a>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <a
+      class="c7n-breadcrumb-link"
+      href=""
+    >
+      <i
+        class="icon icon-user"
+      />
+      <span>
+        Application List
+      </span>
+    </a>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <span
+      class="c7n-breadcrumb-link"
+    >
+      Application
+    </span>
+    <span
+      class="c7n-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+</div>
+`;

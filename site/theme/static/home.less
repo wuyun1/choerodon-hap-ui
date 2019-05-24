@@ -1,0 +1,243 @@
+@home-bg-color: #3f51b5;
+@home-text-color: #333;
+
+.home-page-wrapper {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  position: relative; // will-change: transform;
+  color: @home-text-color;
+  font-family: Avenir, @font-family;
+  .page {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    padding: 0 24px;
+    h2 {
+      font-size: 48px;
+      line-height: 46px;
+      color: @home-text-color;
+      text-align: center;
+      margin: 112px auto 130px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+      will-change: transform;
+    }
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.banner-bg {
+  &-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  width: 120%;
+  height: 200px;
+  background: @home-bg-color;
+  position: absolute;
+  bottom: -200px;
+  left: 0%;
+  transform-origin: 0;
+  transform: rotate(-4deg);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 576px;
+  &-image {
+    background-image: url(./images/banner-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 200px;
+    height: 100%;
+  }
+  &-wrapper {
+    overflow: initial;
+    position: relative;
+    z-index: 1;
+  }
+  .text-wrapper {
+    width: 40%;
+    max-width: 560px;
+    min-width: 420px;
+    min-height: 336px;
+    color: #333;
+    > * {
+      will-change: transform;
+    }
+    h1 {
+      height: 67px;
+      font-size: 48px;
+      font-family: PingFangSC-Semibold;
+      line-height: 67px;
+    }
+    h3 {
+      text-align: right;
+      margin: 0 0 28px;
+      font-size: 16px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 40px;
+      color: #3d3d4f;
+    }
+  }
+
+  .img-wrapper {
+    width: 65%;
+    max-width: 908px;
+    position: absolute;
+    right: 0;
+    height: 100%;
+  }
+
+  .banner-btns {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    min-width: 520px;
+  }
+
+  .banner-btn {
+    font-weight: 500;
+    padding: 0 24px;
+    border-radius: 32px;
+    font-size: 18px;
+    line-height: 36px;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    margin-right: 16px;
+    text-decoration: none;
+    border: 2px solid @home-bg-color;
+    font-family: @font-family;
+  }
+
+  .banner-btn.components {
+    background: @home-bg-color;
+    color: #fff;
+  }
+
+  .banner-btn.github {
+    color: @home-bg-color;
+    margin-left: 25px;
+  }
+}
+
+svg {
+  display: block;
+  g {
+    transform-origin: 50%;
+    transform-box: fill-box;
+  }
+}
+
+/** page1 **/
+
+.page1 {
+  min-height: 1375px;
+  background: @home-bg-color;
+  background: linear-gradient(180deg, #738ce9 0%, #3f51b5 100%);
+  h2 {
+    color: #fff !important;
+  }
+  &-block {
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto 130px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    h3 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 400;
+    }
+    p {
+      color: rgba(255, 255, 255, 0.9);
+      margin-top: 15px;
+    }
+  }
+  &-image {
+    width: 173px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 46px auto 40px;
+    transition: transform .45s @ease-out, box-shadow .45s @ease-out;
+    img {
+      display: block;
+    }
+    div {
+      background-size: 100% 100%;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+    }
+    > .feature-1 {
+      background-image: url(./images/feature-1.svg);
+    }
+    > .feature-2 {
+      background-image: url(./images/feature-2.svg);
+    }
+    > .feature-3 {
+      background-image: url(./images/feature-3.svg);
+    }
+    > .feature-4 {
+      background-image: url(./images/feature-4.svg);
+    }
+    > .feature-5 {
+      background-image: url(./images/feature-5.svg);
+    }
+    > .feature-6 {
+      background-image: url(./images/feature-6.svg);
+    }
+  }
+  &-point-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: inherit !important;
+  }
+}
+
+.parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  &.bottom {
+    z-index: 0;
+  }
+  &.top {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    svg {
+      overflow: inherit;
+    }
+  }
+}

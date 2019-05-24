@@ -1,0 +1,1243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
+<ul
+  class="rc-tree c7n-tree-icon-hide"
+  role="tree-node"
+  unselectable="on"
+>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_open"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      class="rc-tree-checkbox rc-tree-checkbox-checked"
+    >
+      <span
+        class="c7n-tree-checkbox-inner"
+      />
+    </span>
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+      title="parent 1"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        parent 1
+      </span>
+    </span>
+    <ul>
+      <li
+        class="rc-tree-treenode-disabled"
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_open"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-checkbox rc-tree-checkbox-disabled"
+        >
+          <span
+            class="c7n-tree-checkbox-inner"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+          title="parent 1-0"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            parent 1-0
+          </span>
+        </span>
+        <ul>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox rc-tree-checkbox-disabled"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="leaf"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                leaf
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="leaf"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                leaf
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_open"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-checkbox rc-tree-checkbox-checked"
+        >
+          <span
+            class="c7n-tree-checkbox-inner"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+          title="parent 1-1"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            parent 1-1
+          </span>
+        </span>
+        <ul>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox rc-tree-checkbox-checked"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title=""
+            >
+              <span
+                class="rc-tree-title"
+              >
+                <span
+                  style="color:#1890ff"
+                >
+                  sss
+                </span>
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
+<ul
+  class="rc-tree c7n-tree-icon-hide"
+  role="tree-node"
+  unselectable="on"
+>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_open"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      class="rc-tree-checkbox rc-tree-checkbox-indeterminate"
+    >
+      <span
+        class="c7n-tree-checkbox-inner"
+      />
+    </span>
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+      title="0-0"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        0-0
+      </span>
+    </span>
+    <ul>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_open"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-checkbox rc-tree-checkbox-checked"
+        >
+          <span
+            class="c7n-tree-checkbox-inner"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+          title="0-0-0"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            0-0-0
+          </span>
+        </span>
+        <ul>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox rc-tree-checkbox-checked"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="0-0-0-0"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-0-0
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox rc-tree-checkbox-checked"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="0-0-0-1"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-0-1
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox rc-tree-checkbox-checked"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="0-0-0-2"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-0-2
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_open"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-checkbox"
+        >
+          <span
+            class="c7n-tree-checkbox-inner"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+          title="0-0-1"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            0-0-1
+          </span>
+        </span>
+        <ul>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="0-0-1-0"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-1-0
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="0-0-1-1"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-1-1
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              class="rc-tree-checkbox"
+            >
+              <span
+                class="c7n-tree-checkbox-inner"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="0-0-1-2"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-1-2
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher-noop"
+        />
+        <span
+          class="rc-tree-checkbox"
+        >
+          <span
+            class="c7n-tree-checkbox-inner"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+          title="0-0-2"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            0-0-2
+          </span>
+        </span>
+      </li>
+    </ul>
+  </li>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_close"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      class="rc-tree-checkbox"
+    >
+      <span
+        class="c7n-tree-checkbox-inner"
+      />
+    </span>
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+      title="0-1"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        0-1
+      </span>
+    </span>
+  </li>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher-noop"
+    />
+    <span
+      class="rc-tree-checkbox"
+    >
+      <span
+        class="c7n-tree-checkbox-inner"
+      />
+    </span>
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+      title="0-2"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        0-2
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
+<ul
+  class="rc-tree rc-tree-show-line"
+  role="tree-node"
+  unselectable="on"
+>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_open"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+      title="parent 1"
+    >
+      <span
+        class="rc-tree-iconEle rc-tree-icon__open"
+      />
+      <span
+        class="rc-tree-title"
+      >
+        parent 1
+      </span>
+    </span>
+    <ul>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_open"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open rc-tree-node-selected"
+          title="parent 1-0"
+        >
+          <span
+            class="rc-tree-iconEle rc-tree-icon__open"
+          />
+          <span
+            class="rc-tree-title"
+          >
+            parent 1-0
+          </span>
+        </span>
+        <ul>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            >
+              <i
+                class="icon icon-note c7n-tree-switcher-line-icon"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="leaf"
+            >
+              <span
+                class="rc-tree-iconEle rc-tree-icon__customize"
+              >
+                <i
+                  class="icon icon-airport_shuttle"
+                />
+              </span>
+              <span
+                class="rc-tree-title"
+              >
+                leaf
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            >
+              <i
+                class="icon icon-note c7n-tree-switcher-line-icon"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="leaf"
+            >
+              <span
+                class="rc-tree-iconEle rc-tree-icon__docu"
+              />
+              <span
+                class="rc-tree-title"
+              >
+                leaf
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_open"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+          title="parent 1-1"
+        >
+          <span
+            class="rc-tree-iconEle rc-tree-icon__open"
+          />
+          <span
+            class="rc-tree-title"
+          >
+            parent 1-1
+          </span>
+        </span>
+        <ul>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            >
+              <i
+                class="icon icon-note c7n-tree-switcher-line-icon"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="leaf"
+            >
+              <span
+                class="rc-tree-iconEle rc-tree-icon__docu"
+              />
+              <span
+                class="rc-tree-title"
+              >
+                leaf
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher-noop"
+        >
+          <i
+            class="icon icon-note c7n-tree-switcher-line-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+          title="leaf"
+        >
+          <span
+            class="rc-tree-iconEle rc-tree-icon__docu"
+          />
+          <span
+            class="rc-tree-title"
+          >
+            leaf
+          </span>
+        </span>
+      </li>
+    </ul>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
+<ul
+  class="rc-tree c7n-tree-icon-hide draggable-tree"
+  role="tree-node"
+  unselectable="on"
+>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_open"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      aria-grabbed="true"
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open draggable"
+      draggable="true"
+      title="0-0"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        0-0
+      </span>
+    </span>
+    <ul>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_open"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          aria-grabbed="true"
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open draggable"
+          draggable="true"
+          title="0-0-0"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            0-0-0
+          </span>
+        </span>
+        <ul>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              aria-grabbed="true"
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal draggable"
+              draggable="true"
+              title="0-0-0-0"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-0-0
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              aria-grabbed="true"
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal draggable"
+              draggable="true"
+              title="0-0-0-1"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-0-1
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            />
+            <span
+              aria-grabbed="true"
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal draggable"
+              draggable="true"
+              title="0-0-0-2"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                0-0-0-2
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_close"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          aria-grabbed="true"
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close draggable"
+          draggable="true"
+          title="0-0-1"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            0-0-1
+          </span>
+        </span>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher-noop"
+        />
+        <span
+          aria-grabbed="true"
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal draggable"
+          draggable="true"
+          title="0-0-2"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            0-0-2
+          </span>
+        </span>
+      </li>
+    </ul>
+  </li>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_close"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      aria-grabbed="true"
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close draggable"
+      draggable="true"
+      title="0-1"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        0-1
+      </span>
+    </span>
+  </li>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher-noop"
+    />
+    <span
+      aria-grabbed="true"
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal draggable"
+      draggable="true"
+      title="0-2"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        0-2
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/tree/demo/dynamic.md correctly 1`] = `
+<ul
+  class="rc-tree c7n-tree-icon-hide"
+  role="tree-node"
+  unselectable="on"
+>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_close"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+      title="Expand to load"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        Expand to load
+      </span>
+    </span>
+  </li>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_close"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+      title="Expand to load"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        Expand to load
+      </span>
+    </span>
+  </li>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher-noop"
+    />
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+      title="Tree Node"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        Tree Node
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/tree/demo/line.md correctly 1`] = `
+<ul
+  class="rc-tree c7n-tree-icon-hide rc-tree-show-line"
+  role="tree-node"
+  unselectable="on"
+>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_open"
+    >
+      <i
+        class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+      />
+    </span>
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+      title="parent 1"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        parent 1
+      </span>
+    </span>
+    <ul>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_open"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
+          title="parent 1-0"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            parent 1-0
+          </span>
+        </span>
+        <ul>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            >
+              <i
+                class="icon icon-note c7n-tree-switcher-line-icon"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="leaf"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                leaf
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            >
+              <i
+                class="icon icon-note c7n-tree-switcher-line-icon"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="leaf"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                leaf
+              </span>
+            </span>
+          </li>
+          <li
+            class=""
+          >
+            <span
+              class="rc-tree-switcher rc-tree-switcher-noop"
+            >
+              <i
+                class="icon icon-note c7n-tree-switcher-line-icon"
+              />
+            </span>
+            <span
+              class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+              title="leaf"
+            >
+              <span
+                class="rc-tree-title"
+              >
+                leaf
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_close"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+          title="parent 1-1"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            parent 1-1
+          </span>
+        </span>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="rc-tree-switcher rc-tree-switcher_close"
+        >
+          <i
+            class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+          />
+        </span>
+        <span
+          class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+          title="parent 1-2"
+        >
+          <span
+            class="rc-tree-title"
+          >
+            parent 1-2
+          </span>
+        </span>
+      </li>
+    </ul>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/tree/demo/search.md correctly 1`] = `
+<div>
+  <span
+    class="c7n-input-wrapper c7n-input-has-suffix"
+    style="margin-bottom:8px"
+  >
+    <div
+      class="c7n-input-content"
+    >
+      <div
+        class="c7n-input-rendered-wrapper"
+      >
+        <div
+          class="c7n-input-rendered c7n-input-rendered-sm"
+        >
+          <div
+            class="c7n-input-placeholder"
+          >
+            Search
+          </div>
+          <input
+            class="c7n-input c7n-input-sm c7n-input-search c7n-input-search-small"
+            type="text"
+          />
+        </div>
+        <span
+          class="c7n-input-suffix c7n-input-suffix-sm"
+        >
+          <button
+            class="c7n-btn c7n-btn-primary c7n-btn-circle c7n-btn-sm c7n-btn-icon-only c7n-btn-flat"
+            type="button"
+          >
+            <i
+              class="icon icon-search"
+            />
+            <div
+              class="c7n-ripple-wrapper"
+            />
+          </button>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c7n-input-underline"
+    >
+      <span
+        class="c7n-input-ripple"
+      />
+    </div>
+  </span>
+  <ul
+    class="rc-tree c7n-tree-icon-hide"
+    role="tree-node"
+    unselectable="on"
+  >
+    <li
+      class=""
+    >
+      <span
+        class="rc-tree-switcher rc-tree-switcher_close"
+      >
+        <i
+          class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+        />
+      </span>
+      <span
+        class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+        title=""
+      >
+        <span
+          class="rc-tree-title"
+        >
+          <span>
+            <span
+              style="color:#f50"
+            />
+            0-0
+          </span>
+        </span>
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span
+        class="rc-tree-switcher rc-tree-switcher_close"
+      >
+        <i
+          class="icon icon-arrow_drop_down c7n-tree-switcher-icon"
+        />
+      </span>
+      <span
+        class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+        title=""
+      >
+        <span
+          class="rc-tree-title"
+        >
+          <span>
+            <span
+              style="color:#f50"
+            />
+            0-1
+          </span>
+        </span>
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span
+        class="rc-tree-switcher rc-tree-switcher-noop"
+      />
+      <span
+        class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+        title=""
+      >
+        <span
+          class="rc-tree-title"
+        >
+          <span>
+            <span
+              style="color:#f50"
+            />
+            0-2
+          </span>
+        </span>
+      </span>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,14 @@
+@import "../../../components/style/themes/default";
+@import "../../../components/style/mixins/index";
+
+.@{c7n-pro-prefix}-validation-message {
+  color: @error-color;
+  white-space: nowrap;
+  max-width: unset;
+  > span {
+    vertical-align: middle;
+  }
+  > .@{iconfont-css-prefix} {
+    margin-right: .08rem;
+  }
+}
