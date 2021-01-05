@@ -95,7 +95,7 @@
     "ansi-styles": "^3.2.0",
     "ant-design-palettes": "^1.0.0",
     "autoprefixer": "^7.1.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.25.0",
     "babel-eslint": "8.0.1",
